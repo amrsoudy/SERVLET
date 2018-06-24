@@ -17,7 +17,7 @@
     <center><h1><u>Login Here</u></h1></center>
     <center>
         <div>
-            <form action="login" method="POST">
+            <form action="login" method="GET">
 
                 <table>
 
@@ -28,6 +28,13 @@
                     <tr>
                         <td>Password    </td>
                         <td><input type="password" class="form-control" name="PWD" placeholder="Password" size="30" /></td>
+                    </tr>
+                        <tr>
+                        <td>Language    </td>
+                        <td><input type="radio" name="lang" value="Fr" checked="checked" />Francais <br>
+                            <input type="radio" name="lang" value="En"  />English <br>
+                        
+                        </td>
                     </tr>
                     <tr>
                         <td colspan="2" style="text-align:center"><input  class="btn btn-success" type="submit" value="Login" /></td>

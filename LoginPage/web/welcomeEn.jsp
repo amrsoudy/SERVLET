@@ -1,5 +1,5 @@
 <%-- 
-    Document   : welcome
+    Document   : welcomeEn
     Created on : 2018-06-24, 13:18:02
     Author     : 1795162
 --%>
@@ -12,7 +12,7 @@
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
         <style src="css1.css">
             </style>
-        <title>Welcome Page</title>
+        <title>WelcomeEn Page</title>
     </head>
     <body>
         <%  String _username = request.getParameter("UserName");
@@ -21,7 +21,7 @@
         
         
         %>
-    <center><h1>BienVenue  <%= _username  %> </h1></center>
+    <center><h1>welcome  <%= _username  %> </h1></center>
 
     <div class="container">
         <a href="index.jsp">Home</a>

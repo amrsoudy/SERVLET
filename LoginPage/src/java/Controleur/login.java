@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.sql.*;
+import javax.servlet.RequestDispatcher;
 
 public class login extends HttpServlet {
 
@@ -16,6 +17,8 @@ public class login extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             String _username = request.getParameter("UserName");
             String _password = request.getParameter("PWD");
+            String _l = request.getParameter("lang");
+            String Destiation = "";
             try {
                 if (_username != null && _password != null) {
 
@@ -28,10 +31,22 @@ public class login extends HttpServlet {
                     ResultSet rs = psm.executeQuery();
 
                     if (rs.next()) {
+                        if (_l != null && _l.equals("Fr")) {
 
-                        response.sendRedirect("welcome.jsp");
+                            Destiation = "welcome.jsp";
+                        } else if (_l.equals("En")) {
+
+                            Destiation = "welcomeEn.jsp";
+
+                        }
+
+                        //when we use forwored we create object that in clude all request and response 
+                        RequestDispatcher dispatch = request.getRequestDispatcher(Destiation);
+                        dispatch.forward(request, response);
                     } else {
-                        out.println(" UserName or Password in valid   Login Faild ");
+                        RequestDispatcher dispatch = request.getRequestDispatcher("Faild.jsp");
+
+                        dispatch.forward(request, response);
 
                     }
 
@@ -41,7 +56,7 @@ public class login extends HttpServlet {
                 }
             } catch (Exception ex) {
                 out.print("Exception : " + ex.getMessage());
-                    ex.printStackTrace();
+                ex.printStackTrace();
 
             }
 
