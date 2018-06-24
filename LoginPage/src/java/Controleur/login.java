@@ -33,10 +33,10 @@ public class login extends HttpServlet {
                     if (rs.next()) {
                         if (_l != null && _l.equals("Fr")) {
 
-                            Destiation = "welcome.jsp";
+                            Destiation = "/WEB-INF/welcome.jsp";
                         } else if (_l.equals("En")) {
 
-                            Destiation = "welcomeEn.jsp";
+                            Destiation = "/WEB-INF/welcomeEn.jsp";
 
                         }
 
@@ -44,7 +44,7 @@ public class login extends HttpServlet {
                         RequestDispatcher dispatch = request.getRequestDispatcher(Destiation);
                         dispatch.forward(request, response);
                     } else {
-                        RequestDispatcher dispatch = request.getRequestDispatcher("Faild.jsp");
+                        RequestDispatcher dispatch = request.getRequestDispatcher("/WEB-INF/Faild.jsp");
 
                         dispatch.forward(request, response);
 

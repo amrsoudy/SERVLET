@@ -17,7 +17,7 @@
     <center><h1><u>Login Here</u></h1></center>
     <center>
         <div>
-            <form action="login" method="GET">
+            <form action="login" method="POST">
 
                 <table>
 
