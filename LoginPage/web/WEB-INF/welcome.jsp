@@ -15,13 +15,8 @@
         <title>Welcome Page</title>
     </head>
     <body>
-        <%  String _username = request.getParameter("UserName");
-        
-        
-        
-        
-        %>
-    <center><h1>BienVenue  <%= _username  %> </h1></center>
+       // cest miux  mettre directoment  dans la affichage 
+    <center><h1>BienVenue   <%= request.getParameter("UserName") %> </h1></center>
 
     <div class="container">
         <a href="index.jsp">Home</a>
