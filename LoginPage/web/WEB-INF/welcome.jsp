@@ -15,7 +15,6 @@
         <title>Welcome Page</title>
     </head>
     <body>
-       // cest miux  mettre directoment  dans la affichage 
     <center><h1>BienVenue   <%= request.getParameter("UserName") %> </h1></center>
 
     <div class="container">

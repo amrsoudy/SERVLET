@@ -1,6 +1,6 @@
 <%-- 
-    Document   : ConvertTemp
-    Created on : 2018-06-27, 14:48:31
+    Document   : confirm
+    Created on : 2018-06-27, 15:40:50
     Author     : 1795162
 --%>
 
@@ -12,10 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>la résulte est  : </h1> <br>
-        <p><%= request.getAttribute("s")%></p>
-
-
-
+        <h1><%= request.getAttribute("x") %>  de ligne inseré </h1>
     </body>
 </html>

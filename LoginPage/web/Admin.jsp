@@ -47,6 +47,8 @@
                 </table>
 
             </form>  
+            
+            <p><%= request.getAttribute("x") %> lignes  inseré </p>
         </div>
     </center>
 

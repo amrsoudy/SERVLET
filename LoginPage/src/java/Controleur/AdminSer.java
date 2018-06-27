@@ -14,6 +14,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -45,26 +46,15 @@ public class AdminSer extends HttpServlet {
             String _age = request.getParameter("age1");
             String _email = request.getParameter("email1");
             
-
-            Class.forName("org.apache.derby.jdbc.ClientDriver");
-            Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/sample", "app", "app");
-            String Query = "INSERT INTO USERS VALUES ('joodi','0000','20','dddddd');";
-           PreparedStatement pstm = conn.prepareStatement(Query);
-
-
-            int x = pstm.executeUpdate();
-            pstm.close();
+           int x  = Utils.addUser(_username,_password,_age,_email);
+            
+            
+            request.setAttribute("x", x);
 
             /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet AdminSer</title>");
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>User " + _username + " Added</h1>");
-            out.println("</body>");
-            out.println("</html>");
+            RequestDispatcher dispatch = request.getRequestDispatcher("Admin.jsp");
+            dispatch.forward(request, response);
+
         }
     }
 
