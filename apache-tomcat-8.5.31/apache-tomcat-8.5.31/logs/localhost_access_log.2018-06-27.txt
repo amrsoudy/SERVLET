@@ -1365,3 +1365,9 @@
 127.0.0.1 - - [27/Jun/2018:16:30:25 -0400] "GET /LoginPage/Admin.jsp HTTP/1.1" 200 1747
 127.0.0.1 - - [27/Jun/2018:16:30:25 -0400] "GET /LoginPage/css/css1.css HTTP/1.1" 200 488
 127.0.0.1 - - [27/Jun/2018:16:30:39 -0400] "POST /LoginPage/AdminSer HTTP/1.1" 200 1744
+127.0.0.1 - - [27/Jun/2018:16:32:17 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - 123 [27/Jun/2018:16:32:17 -0400] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - - [27/Jun/2018:16:32:17 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - 123 [27/Jun/2018:16:32:17 -0400] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - - [27/Jun/2018:16:32:17 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - 123 [27/Jun/2018:16:32:17 -0400] "GET /manager/text/ HTTP/1.1" 200 42
