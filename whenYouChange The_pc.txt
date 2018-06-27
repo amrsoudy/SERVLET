@@ -1,0 +1,22 @@
+
+add the tomcat then 
+
+create your  DB  again with derby 
+then 
+
+add the javaDb Driver deja include  derby driver 
+----------------------------
+I think the problem you have is that you don't have the Derby driver in the classpath of the project.
+
+You can easily achieve that adding the JavaDB library to your project:
+
+    Right-click on the project
+    Properties -> Libraries
+    Add Library -> JavaDB driver
+
+This includes derby.jar, derbyclient.jar and derbynet.jar in your project's classpath.
+
+The derbyclient.jar contains the class org.apache.derby.jdbc.ClientDriver your code is complaining about.
+--------------------------------
+
+then it will wotk normal
