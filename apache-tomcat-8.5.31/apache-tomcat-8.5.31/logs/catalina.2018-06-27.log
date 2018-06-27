@@ -45,3 +45,164 @@
 27-Jun-2018 13:24:27.538 INFOS [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/LoginPage]] after start() had already been called. The second call will be ignored.
 27-Jun-2018 13:27:45.195 INFOS [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 27-Jun-2018 13:28:19.136 INFOS [http-nio-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:31:53.321 INFOS [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:31:54.017 INFOS [http-nio-8080-exec-20] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:31:54.020 INFOS [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:31:54.785 INFOS [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:31:55.228 INFOS [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:31:55.231 INFOS [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:32:24.176 INFOS [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:32:52.629 INFOS [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:32:53.008 INFOS [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:32:53.010 INFOS [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:32:57.361 INFOS [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:32:57.694 INFOS [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:32:57.698 INFOS [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:32:59.975 INFOS [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:33:00.280 INFOS [http-nio-8080-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:33:00.282 INFOS [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:33:10.117 INFOS [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:33:10.400 INFOS [http-nio-8080-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:33:10.403 INFOS [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:34:44.056 INFOS [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:34:44.401 INFOS [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:34:44.405 INFOS [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:34:44.426 INFOS [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:34:44.696 INFOS [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:34:44.699 INFOS [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:34:53.348 INFOS [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:34:53.613 INFOS [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:34:53.616 INFOS [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:37:30.289 INFOS [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:37:30.679 INFOS [http-nio-8080-exec-47] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:37:30.694 INFOS [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:37:36.157 INFOS [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:37:36.457 INFOS [http-nio-8080-exec-45] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:37:36.459 INFOS [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:37:36.971 INFOS [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:37:37.240 INFOS [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:37:37.243 INFOS [85] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:37:46.049 INFOS [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:37:46.303 INFOS [http-nio-8080-exec-45] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:37:46.305 INFOS [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:49:33.349 INFOS [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:49:33.619 INFOS [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:49:33.622 INFOS [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:51:50.048 INFOS [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:51:50.385 INFOS [http-nio-8080-exec-69] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:51:50.456 INFOS [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:56:01.523 INFOS [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:56:01.897 INFOS [http-nio-8080-exec-77] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:56:01.900 INFOS [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:56:02.363 INFOS [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:56:02.640 INFOS [http-nio-8080-exec-70] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:56:02.643 INFOS [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 13:56:10.136 INFOS [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 13:56:10.392 INFOS [http-nio-8080-exec-71] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 13:56:10.395 INFOS [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 14:02:15.238 INFOS [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 14:02:15.495 INFOS [http-nio-8080-exec-91] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 14:02:15.498 INFOS [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 14:04:04.729 INFOS [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 14:04:05.049 INFOS [http-nio-8080-exec-94] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 14:04:05.052 INFOS [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 14:06:05.087 INFOS [http-nio-8080-exec-95] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\TempConvert.xml]
+27-Jun-2018 14:06:05.104 INFOS [http-nio-8080-exec-95] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\TempConvert.xml] has finished in [17] ms
+27-Jun-2018 14:06:05.106 INFOS [http-nio-8080-exec-109] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TempConvert]] after start() had already been called. The second call will be ignored.
+27-Jun-2018 14:06:33.872 INFOS [http-nio-8080-exec-107] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\test1.xml]
+27-Jun-2018 14:06:33.892 INFOS [http-nio-8080-exec-107] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\test1.xml] has finished in [19] ms
+27-Jun-2018 14:06:33.895 INFOS [http-nio-8080-exec-108] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test1]] after start() had already been called. The second call will be ignored.
+27-Jun-2018 14:07:31.675 GRAVE [http-nio-8080-exec-112] contreoleurs.NewServlet.doPost null
+ java.lang.ClassNotFoundException: org.apache.derby.jdbc.ClientDriver
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1136)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at contreoleurs.NewServlet.doPost(NewServlet.java:72)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+27-Jun-2018 14:09:21.090 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Jun-2018 14:09:21.090 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Jun-2018 14:09:21.184 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Jun-2018 14:09:21.238 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+27-Jun-2018 14:09:21.277 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Jun-2018 14:09:21.279 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Jun-2018 14:09:21.280 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Jun-2018 14:09:21.281 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Jun-2018 14:11:15.632 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+27-Jun-2018 14:11:15.634 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+27-Jun-2018 14:11:15.634 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+27-Jun-2018 14:11:15.634 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+27-Jun-2018 14:11:15.634 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+27-Jun-2018 14:11:15.634 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Jun-2018 14:11:15.634 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+27-Jun-2018 14:11:15.634 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+27-Jun-2018 14:11:15.635 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Jun-2018 14:11:15.635 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31
+27-Jun-2018 14:11:15.635 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31
+27-Jun-2018 14:11:15.635 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\logging.properties
+27-Jun-2018 14:11:15.635 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2018 14:11:15.635 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LI-S031-0T26
+27-Jun-2018 14:11:15.635 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2018 14:11:15.635 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2018 14:11:15.635 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2018 14:11:15.637 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31
+27-Jun-2018 14:11:15.637 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31
+27-Jun-2018 14:11:15.637 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\temp
+27-Jun-2018 14:11:15.637 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\IBM\SDP/rpt/citrixOCR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Novell\ZENworks\bin;C:\Program Files\Novell\iPrint;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Users\1795162\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;.]
+27-Jun-2018 14:11:15.986 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Jun-2018 14:11:16.243 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Jun-2018 14:11:16.249 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Jun-2018 14:11:16.252 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Jun-2018 14:11:16.252 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1055 ms
+27-Jun-2018 14:11:16.279 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+27-Jun-2018 14:11:16.279 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+27-Jun-2018 14:11:16.289 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\LoginPage.xml]
+27-Jun-2018 14:11:16.942 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2018 14:11:16.986 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\LoginPage.xml] has finished in [696] ms
+27-Jun-2018 14:11:16.986 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\TempConvert.xml]
+27-Jun-2018 14:11:17.020 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\TempConvert.xml] has finished in [34] ms
+27-Jun-2018 14:11:17.020 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\test1.xml]
+27-Jun-2018 14:11:17.046 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\test1.xml] has finished in [25] ms
+27-Jun-2018 14:11:17.053 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\webapps\docs] de l'application web
+27-Jun-2018 14:11:17.069 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\webapps\docs] has finished in [16] ms
+27-Jun-2018 14:11:17.069 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\webapps\examples] de l'application web
+27-Jun-2018 14:11:17.280 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\webapps\examples] has finished in [211] ms
+27-Jun-2018 14:11:17.280 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\webapps\host-manager] de l'application web
+27-Jun-2018 14:11:17.299 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\webapps\host-manager] has finished in [19] ms
+27-Jun-2018 14:11:17.299 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\webapps\manager] de l'application web
+27-Jun-2018 14:11:17.316 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\webapps\manager] has finished in [17] ms
+27-Jun-2018 14:11:17.317 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\webapps\ROOT] de l'application web
+27-Jun-2018 14:11:17.330 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\webapps\ROOT] has finished in [13] ms
+27-Jun-2018 14:11:17.333 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Jun-2018 14:11:17.351 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Jun-2018 14:11:17.353 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1101 ms
+27-Jun-2018 14:13:09.872 INFOS [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 14:13:11.053 INFOS [20] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 14:13:12.660 INFOS [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 14:13:13.750 INFOS [21] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 14:13:18.285 INFOS [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
+27-Jun-2018 14:13:18.769 INFOS [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé

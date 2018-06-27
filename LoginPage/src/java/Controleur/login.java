@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.sql.*;
+import javafx.scene.control.Alert;
 import javax.servlet.RequestDispatcher;
 
 public class login extends HttpServlet {
@@ -23,7 +24,8 @@ public class login extends HttpServlet {
                 if (_username != null && _password != null) {
 
                     Class.forName("org.apache.derby.jdbc.ClientDriver");
-                    Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/sample", "app", "app");
+                    Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/amr_db", "amr", "Secret");
+                    System.out.println("Connected ");
                     String Query = "select * from USERS where USERNAME = ? AND PASSWORD = ? ";
                     PreparedStatement psm = conn.prepareStatement(Query);
                     psm.setString(1, _username);
