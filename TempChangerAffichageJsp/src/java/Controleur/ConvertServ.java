@@ -7,6 +7,7 @@ package Controleur;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -16,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author 1795162
  */
-public class NewServelet extends HttpServlet {
+public class ConvertServ extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -31,60 +32,49 @@ public class NewServelet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-           
+
             double x = Double.parseDouble(request.getParameter("valeurSaisir"));
             String ver = request.getParameter("choix");
-            String s =Utils.convert(x, ver);
-         
-             //on va envoyer la  s  a  jsp  convertTemp
-            //request.setAttribute("s", s);
+           double conv=0;
             
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet ConvertServ</title>");
-            out.println("</head>");
-            out.println("<body>");
-            out.println(s);
-            out.println("</body>");
-            out.println("</html>");
-        }
+            
+           RequestDispatcher dispatch = request.getRequestDispatcher("ConvertTemp");
+            dispatch.forward(request, response);
+
+//            out.println("<!DOCTYPE html>");
+//            out.println("<html>");
+//            out.println("<head>");
+//            out.println("<title>Servlet ConvertServ</title>");
+//            out.println("</head>");
+//            out.println("<body>");
+//            if (ver.equals("Celsius")) {
+//
+//                
+//                out.println("<h1> " + x + " Fehrnhite ver  Celsius  est " + conv + "</h1>");
+//
+//            } else if (ver.equals("Fehrnhite")) {
+//                conv = x * 3.4;
+//                out.println("<h1> " + x + " Celsius ver  Fehrnhite  est " + conv + "</h1>");
+//
+//            }
+//
+//            out.println("</body>");
+//            out.println("</html>");
+       }
     }
 
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
-    /**
-     * Handles the HTTP <code>GET</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
     }
 
-    /**
-     * Handles the HTTP <code>POST</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
     }
 
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
     @Override
     public String getServletInfo() {
         return "Short description";

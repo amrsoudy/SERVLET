@@ -7,6 +7,7 @@ package Controleur;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -31,23 +32,24 @@ public class NewServelet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-           
+            
             double x = Double.parseDouble(request.getParameter("valeurSaisir"));
             String ver = request.getParameter("choix");
-            String s =Utils.convert(x, ver);
-         
-             //on va envoyer la  s  a  jsp  convertTemp
-            //request.setAttribute("s", s);
+            String s = Utils.convert(x, ver);
             
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet ConvertServ</title>");
-            out.println("</head>");
-            out.println("<body>");
-            out.println(s);
-            out.println("</body>");
-            out.println("</html>");
+            request.setAttribute("s", s);
+            RequestDispatcher dispatch = request.getRequestDispatcher("ConvertTemp.jsp");
+            dispatch.forward(request, response);
+
+//            out.println("<!DOCTYPE html>");
+//            out.println("<html>");
+//            out.println("<head>");
+//            out.println("<title>Servlet ConvertServ</title>");
+//            out.println("</head>");
+//            out.println("<body>");
+//            out.println(s);
+//            out.println("</body>");
+//            out.println("</html>");
         }
     }
 
