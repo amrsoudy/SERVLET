@@ -1,5 +1,15 @@
 /DemoJour1/nbproject/private/
 /DemoJour1/build/
 /DemoJour1/dist/
+<<<<<<< HEAD
 /test1/nbproject/private/
 /test1/build/
+=======
+/LoginPage/nbproject/private/
+/LoginPage/build/
+/LoginPage/dist/
+/TempConvert/nbproject/private/
+/TempConvert/build/
+/LangConvert/nbproject/private/
+/LangConvert/build/
+>>>>>>> 94c4737f9d601c297630ebd1345e6d4c5f0ade66
