@@ -211,3 +211,26 @@
 27-Jun-2018 14:17:46.866 INFOS [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
 27-Jun-2018 14:37:41.690 INFOS [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/LoginPage] a démarré
 27-Jun-2018 14:37:42.168 INFOS [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 14:58:42.292 INFOS [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TempConvert] a démarré
+27-Jun-2018 14:58:42.334 INFOS [93] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 14:58:43.276 INFOS [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\TempChangerAffichageJsp.xml]
+27-Jun-2018 14:58:43.299 INFOS [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\1795162\Documents\GitHub\SERVLET\apache-tomcat-8.5.31\apache-tomcat-8.5.31\conf\Catalina\localhost\TempChangerAffichageJsp.xml] has finished in [22] ms
+27-Jun-2018 14:58:43.302 INFOS [http-nio-8080-exec-43] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TempChangerAffichageJsp]] after start() had already been called. The second call will be ignored.
+27-Jun-2018 15:00:43.399 INFOS [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TempChangerAffichageJsp] a démarré
+27-Jun-2018 15:00:43.434 INFOS [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 15:01:24.936 INFOS [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TempChangerAffichageJsp] a démarré
+27-Jun-2018 15:01:24.960 INFOS [121] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 15:03:16.362 INFOS [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TempChangerAffichageJsp] a démarré
+27-Jun-2018 15:03:16.387 INFOS [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 15:04:43.412 INFOS [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TempChangerAffichageJsp] a démarré
+27-Jun-2018 15:04:43.436 INFOS [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 15:08:15.300 INFOS [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TempChangerAffichageJsp] a démarré
+27-Jun-2018 15:08:15.325 INFOS [151] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 15:08:46.995 INFOS [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TempChangerAffichageJsp] a démarré
+27-Jun-2018 15:08:47.019 INFOS [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 15:09:02.111 INFOS [http-nio-8080-exec-96] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TempChangerAffichageJsp] a démarré
+27-Jun-2018 15:09:02.132 INFOS [http-nio-8080-exec-96] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 15:09:54.042 INFOS [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TempChangerAffichageJsp] a démarré
+27-Jun-2018 15:09:54.065 INFOS [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+27-Jun-2018 15:17:28.937 INFOS [http-nio-8080-exec-105] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TempChangerAffichageJsp] a démarré
+27-Jun-2018 15:17:28.958 INFOS [http-nio-8080-exec-105] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
