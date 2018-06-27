@@ -1,0 +1,50 @@
+juin 26, 2016 11:32:10 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_10\bin ;F:\app\administrateur\product\11.2.0\client_1;F:\app\administrateur\product\11.2.0\client_1\bin;F:\app\administrateur\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Java\jdk1.7.0_10\bin;C:\Python34;C:\Program Files\Java\jdk1.7.0_10\bin ;C:\Program Files\Java\jdk1.7.0_10\bin ;F:\app\administrateur\product\11.2.0\client_1;F:\app\administrateur\product\11.2.0\client_1\bin;F:\app\administrateur\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;.
+juin 26, 2016 11:32:12 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8085"]
+juin 26, 2016 11:32:12 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+juin 26, 2016 11:32:12 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2691 ms
+juin 26, 2016 11:32:12 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+juin 26, 2016 11:32:12 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+juin 26, 2016 11:32:12 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+juin 26, 2016 11:32:14 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [249] milliseconds.
+juin 26, 2016 11:32:14 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.37\webapps\demospringmvc.war
+juin 26, 2016 11:32:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+juin 26, 2016 11:32:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+juin 26, 2016 11:32:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+juin 26, 2016 11:32:17 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8085"]
+juin 26, 2016 11:32:17 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+juin 26, 2016 11:32:17 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5604 ms
+juin 26, 2016 11:32:19 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\FileUploadExample.xml
+juin 26, 2016 11:32:19 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FileUploadExample]] after start() had already been called. The second call will be ignored.
+juin 26, 2016 11:38:35 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+juin 26, 2016 11:38:35 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8085"]
+juin 26, 2016 11:38:35 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+juin 26, 2016 11:38:35 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+juin 26, 2016 11:38:36 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8085"]
+juin 26, 2016 11:38:36 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+juin 26, 2016 11:38:36 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8085"]
+juin 26, 2016 11:38:36 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

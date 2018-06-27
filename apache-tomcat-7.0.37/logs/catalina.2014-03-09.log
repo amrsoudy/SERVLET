@@ -1,0 +1,102 @@
+mars 09, 2014 10:38:30 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+mars 09, 2014 10:38:30 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mars 09, 2014 10:38:32 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+mars 09, 2014 10:38:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+mars 09, 2014 10:38:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+mars 09, 2014 10:38:32 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2480 ms
+mars 09, 2014 10:38:32 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+mars 09, 2014 10:38:32 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+mars 09, 2014 10:38:33 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\111MonProjet.xml
+mars 09, 2014 10:38:34 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AchetezMoi2.xml
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 09, 2014 10:38:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 09, 2014 10:38:36 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/administrateur/Downloads/travaux(9)/travaux/1296047/TP_CarlosCampos/AchetezMoi2/AchetezMoi2/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+mars 09, 2014 10:38:36 PM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+mars 09, 2014 10:38:36 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+mars 09, 2014 10:38:36 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+mars 09, 2014 10:38:36 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\bookstore.xml
+mars 09, 2014 10:38:36 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoAjax.xml
+mars 09, 2014 10:38:37 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\gadgetstore.xml
+mars 09, 2014 10:38:37 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Librairie.xml
+mars 09, 2014 10:38:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+mars 09, 2014 10:38:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\sitelivres.xml
+mars 09, 2014 10:38:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\TESTaJAX.xml
+mars 09, 2014 10:38:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\docs
+mars 09, 2014 10:38:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+mars 09, 2014 10:38:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+mars 09, 2014 10:38:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+mars 09, 2014 10:38:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\sample
+mars 09, 2014 10:38:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+mars 09, 2014 10:38:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+mars 09, 2014 10:38:42 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9248 ms
+mars 09, 2014 10:38:43 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExempleXml.xml
+mars 09, 2014 10:38:44 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ExempleXml]] after start() had already been called. The second call will be ignored.

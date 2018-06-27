@@ -1,0 +1,208 @@
+mai 06, 2015 8:38:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:38:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:38:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context5685106652620730448.xml'
+mai 06, 2015 8:38:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/projetjour4'
+mai 06, 2015 8:39:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:39:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:40:18 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:40:18 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:42:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+mai 06, 2015 8:42:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+mai 06, 2015 8:42:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:42:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:47:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+mai 06, 2015 8:47:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+mai 06, 2015 8:47:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:47:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:48:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:48:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:48:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application '/projetjour4'
+mai 06, 2015 8:48:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/projetjour4'
+mai 06, 2015 8:48:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:48:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:48:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:48:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application '/projetjour4'
+mai 06, 2015 8:48:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/projetjour4'
+mai 06, 2015 8:49:20 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:49:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:49:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:49:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:52:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:52:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:57:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:59:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:59:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/projetjour4'
+mai 06, 2015 8:59:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:59:13 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application '/projetjour4'
+mai 06, 2015 8:59:13 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/projetjour4'
+mai 06, 2015 8:59:50 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 8:59:50 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/projetjour4'
+mai 06, 2015 9:02:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:02:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/projetjour4'
+mai 06, 2015 9:03:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:34:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:34:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:34:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:34:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/projetjour4'
+mai 06, 2015 9:35:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:35:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:35:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application '/projetjour4'
+mai 06, 2015 9:35:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/projetjour4'
+mai 06, 2015 9:38:34 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:38:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:38:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:38:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:39:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:39:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:39:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:39:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/projetjour4'
+mai 06, 2015 9:39:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:39:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:39:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/projetjour4'
+mai 06, 2015 9:41:13 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:41:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:41:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:44:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:44:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:45:50 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:45:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:45:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:46:20 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:46:20 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:47:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:47:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:47:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:51:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 9:51:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:11:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:11:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:11:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:11:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:17:25 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:17:25 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application '/projetjour4'
+mai 06, 2015 10:17:25 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/projetjour4'
+mai 06, 2015 10:17:25 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:17:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/projetjour4'
+mai 06, 2015 10:19:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:21:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:21:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:21:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/projetjour4'
+mai 06, 2015 10:21:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:21:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:22:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:22:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application '/projetjour4'
+mai 06, 2015 10:22:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/projetjour4'
+mai 06, 2015 10:22:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:22:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:22:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application '/projetjour4'
+mai 06, 2015 10:22:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/projetjour4'
+mai 06, 2015 10:23:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:23:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:24:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:25:29 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:25:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 06, 2015 10:25:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'

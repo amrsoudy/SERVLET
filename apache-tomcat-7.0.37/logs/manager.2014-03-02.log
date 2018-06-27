@@ -1,0 +1,68 @@
+mars 02, 2014 7:44:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+mars 02, 2014 7:44:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+mars 02, 2014 7:44:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 7:44:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 7:44:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context1524665880319256186.xml'
+mars 02, 2014 7:44:08 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/TESTaJAX'
+mars 02, 2014 7:44:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 7:44:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/TESTaJAX'
+mars 02, 2014 7:44:56 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 7:44:56 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 7:44:56 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context4256000466295459044.xml'
+mars 02, 2014 7:44:56 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/TESTaJAX'
+mars 02, 2014 8:04:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 8:04:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+mars 02, 2014 8:04:51 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context1164084941432538846.xml'
+mars 02, 2014 8:05:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 8:05:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+mars 02, 2014 8:05:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context5464470776528284623.xml'
+mars 02, 2014 8:07:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 8:07:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+mars 02, 2014 8:07:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context3604551720707360408.xml'
+mars 02, 2014 8:07:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 8:07:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/TESTaJAX'
+mars 02, 2014 8:07:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 8:07:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 8:07:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context6384423755952593689.xml'
+mars 02, 2014 8:07:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/TESTaJAX'
+mars 02, 2014 8:08:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 8:08:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+mars 02, 2014 8:08:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context1632531090118387558.xml'
+mars 02, 2014 8:08:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/'
+mars 02, 2014 8:17:32 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 8:17:32 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 02, 2014 8:17:32 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context9200945255106398851.xml'

@@ -1,0 +1,10 @@
+juin 24, 2016 9:49:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+juin 24, 2016 9:49:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+juin 24, 2016 9:49:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@52d0e711')
+juin 24, 2016 9:52:42 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+juin 24, 2016 9:52:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'objisapp'

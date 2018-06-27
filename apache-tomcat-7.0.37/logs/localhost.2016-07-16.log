@@ -1,0 +1,38 @@
+juil. 16, 2016 5:01:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+juil. 16, 2016 5:01:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+juil. 16, 2016 5:01:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+juil. 16, 2016 5:01:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+juil. 16, 2016 5:01:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'objisapp'
+juil. 16, 2016 5:01:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+juil. 16, 2016 5:01:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+juil. 16, 2016 5:01:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1dab6df')
+juil. 16, 2016 5:05:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+juil. 16, 2016 5:05:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+juil. 16, 2016 5:05:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+juil. 16, 2016 5:53:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'objisapp'
+juil. 16, 2016 5:53:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+juil. 16, 2016 5:53:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+juil. 16, 2016 5:53:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+juil. 16, 2016 5:53:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+juil. 16, 2016 5:53:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+juil. 16, 2016 5:53:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+juil. 16, 2016 5:53:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext

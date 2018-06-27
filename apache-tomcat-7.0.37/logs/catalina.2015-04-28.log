@@ -1,0 +1,76 @@
+avr. 28, 2015 9:52:37 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\PRODUCT\bin;F:\app\administrateur\product\11.2.0\client_1;F:\app\administrateur\product\11.2.0\client_1\bin;C:\Oracle\Middleware\Oracle_FRHome1\bin;C:\PROGRA~2\Java\jre6\bin;F:\DevSuiteHome_1\jdk\jre\bin\classic;F:\DevSuiteHome_1\jdk\jre\bin;F:\DevSuiteHome_1\jdk\jre\bin\client;F:\DevSuiteHome_1\jlib;F:\DevSuiteHome_1\bin;F:\DevSuiteHome_1\jre\1.4.2\bin\client;F:\DevSuiteHome_1\jre\1.4.2\bin;F:\app\administrateur\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Oracle\Middleware\Oracle_FRHome1\opmn\bin;C:\Oracle\Middleware\Oracle_FRHome1\opmn\lib;C:\Oracle\Middleware\Oracle_FRHome1\perl\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Java\jdk1.7.0_10\bin ;F:\PRODUCT\bin;F:\app\administrateur\product\11.2.0\client_1;F:\app\administrateur\product\11.2.0\client_1\bin;C:\Oracle\Middleware\Oracle_FRHome1\bin;C:\PROGRA~2\Java\jre6\bin;F:\DevSuiteHome_1\jdk\jre\bin\classic;F:\DevSuiteHome_1\jdk\jre\bin;F:\DevSuiteHome_1\jdk\jre\bin\client;F:\DevSuiteHome_1\jlib;F:\DevSuiteHome_1\bin;F:\DevSuiteHome_1\jre\1.4.2\bin\client;F:\DevSuiteHome_1\jre\1.4.2\bin;F:\app\administrateur\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Oracle\Middleware\Oracle_FRHome1\opmn\bin;C:\Oracle\Middleware\Oracle_FRHome1\opmn\lib;C:\Oracle\Middleware\Oracle_FRHome1\perl\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;.
+avr. 28, 2015 9:52:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8085"]
+avr. 28, 2015 9:52:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+avr. 28, 2015 9:52:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 5641 ms
+avr. 28, 2015 9:52:42 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+avr. 28, 2015 9:52:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+avr. 28, 2015 9:52:42 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoServiceWeb.xml
+avr. 28, 2015 9:52:45 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,376] milliseconds.
+avr. 28, 2015 9:52:45 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ProjetJour3.xml
+avr. 28, 2015 9:52:45 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+avr. 28, 2015 9:52:46 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\WebApplication1.xml
+avr. 28, 2015 9:52:46 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base C:\TEMP\WebApplication1\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 28, 2015 9:52:46 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+avr. 28, 2015 9:52:46 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+avr. 28, 2015 9:52:46 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/WebApplication1] startup failed due to previous errors
+avr. 28, 2015 9:52:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\docs
+avr. 28, 2015 9:52:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+avr. 28, 2015 9:52:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+avr. 28, 2015 9:52:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+avr. 28, 2015 9:52:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8085"]
+avr. 28, 2015 9:52:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+avr. 28, 2015 9:52:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5294 ms
+avr. 28, 2015 9:54:50 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+avr. 28, 2015 9:54:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8085"]
+avr. 28, 2015 9:54:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+avr. 28, 2015 9:54:50 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+avr. 28, 2015 9:54:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8085"]
+avr. 28, 2015 9:54:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+avr. 28, 2015 9:54:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8085"]
+avr. 28, 2015 9:54:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

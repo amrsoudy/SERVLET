@@ -1,0 +1,214 @@
+juil. 08, 2015 12:03:59 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/projetSession] has started
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+juil. 08, 2015 12:04:00 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/projetSession] is completed
+juil. 08, 2015 12:04:07 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\gestionAgent.xml
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+juil. 08, 2015 12:04:16 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+juil. 08, 2015 12:04:16 AM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/administrateur/Downloads/travaux%20(6)/travaux/1495544/Projet-Bouzid/gestionAgent/gestionAgent/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+juil. 08, 2015 12:04:16 AM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+juil. 08, 2015 12:04:16 AM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+juil. 08, 2015 12:04:16 AM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+juil. 08, 2015 12:04:20 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/gestionAgent]] after start() had already been called. The second call will be ignored.
+juil. 08, 2015 12:35:02 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ProjetSession_ManuelPalacio_PolicesAssurance.xml
+juil. 08, 2015 12:35:02 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+juil. 08, 2015 12:35:02 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+juil. 08, 2015 12:35:02 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+juil. 08, 2015 12:35:02 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+juil. 08, 2015 12:35:02 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+juil. 08, 2015 12:35:03 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+juil. 08, 2015 12:35:03 AM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/administrateur/Downloads/travaux%20(6)/travaux/1495567/LivrableFinal_ManuelPalacio_1495567/ProjetSession_ManuelPalacio_PolicesAssurance/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+juil. 08, 2015 12:35:03 AM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+juil. 08, 2015 12:35:03 AM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+juil. 08, 2015 12:35:03 AM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+juil. 08, 2015 12:35:03 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetSession_ManuelPalacio_PolicesAssurance]] after start() had already been called. The second call will be ignored.
+juil. 08, 2015 12:35:04 AM org.apache.struts.tiles.TilesRequestProcessor initDefinitionsMapping
+INFO: Tiles definition factory found for request processor ''.
+juil. 08, 2015 12:35:04 AM org.apache.struts.util.PropertyMessageResources loadLocale
+WARNING:   Resource com/myapp/struts/ApplicationResource_fr_FR.properties Not Found.
+juil. 08, 2015 12:35:04 AM org.apache.struts.util.PropertyMessageResources loadLocale
+WARNING:   Resource com/myapp/struts/ApplicationResource_fr.properties Not Found.
+juil. 08, 2015 12:35:04 AM org.apache.struts.util.PropertyMessageResources loadLocale
+WARNING:   Resource com/myapp/struts/ApplicationResource_en_US.properties Not Found.
+juil. 08, 2015 1:07:53 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context []
+juil. 08, 2015 1:07:53 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+juil. 08, 2015 1:07:53 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+juil. 08, 2015 1:09:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoAjax.xml
+juil. 08, 2015 1:09:03 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/exoAjax]] after start() had already been called. The second call will be ignored.
+juil. 08, 2015 1:51:15 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/exoAjax]
+juil. 08, 2015 1:51:19 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context []
+juil. 08, 2015 1:51:27 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoAjax.xml
+juil. 08, 2015 1:51:27 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base G:\bdeb\cours APOO projet synthese\matériel ajax\exoAjax\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 08, 2015 1:51:27 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 08, 2015 1:51:27 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 08, 2015 1:51:27 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/exoAjax] startup failed due to previous errors
+juil. 08, 2015 1:51:27 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+juil. 08, 2015 1:51:27 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base G:\bdeb\cours APOO projet synthese\matériel ajax\MyAjaxApp\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 08, 2015 1:51:27 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 08, 2015 1:51:28 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 08, 2015 1:51:28 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors

@@ -1,0 +1,58 @@
+mai 11, 2015 10:26:09 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/jour5EL]
+mai 11, 2015 11:42:53 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/cookiesETsessions]
+mai 11, 2015 11:42:59 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\cookiesETsessions.xml
+mai 11, 2015 11:43:00 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base H:\bdeb\cours dev Web\notes de cours\jour3\cookiesETsessions\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+mai 11, 2015 11:43:00 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+mai 11, 2015 11:43:00 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+mai 11, 2015 11:43:00 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/cookiesETsessions] startup failed due to previous errors
+mai 11, 2015 11:43:00 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\jour5EL.xml
+mai 11, 2015 11:43:00 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base H:\bdeb\cours dev Web\notes de cours\bon jour 5\jour5EL\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+mai 11, 2015 11:43:00 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+mai 11, 2015 11:43:00 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+mai 11, 2015 11:43:00 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/jour5EL] startup failed due to previous errors

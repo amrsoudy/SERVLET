@@ -1,0 +1,992 @@
+mars 16, 2014 8:53:14 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+mars 16, 2014 8:53:14 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mars 16, 2014 8:53:15 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+mars 16, 2014 8:53:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:53:16 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+mars 16, 2014 8:53:16 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+mars 16, 2014 8:53:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:53:16 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2411 ms
+mars 16, 2014 8:53:16 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+mars 16, 2014 8:53:16 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+mars 16, 2014 8:53:16 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\111MonProjet.xml
+mars 16, 2014 8:53:17 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AchetezMoi2.xml
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 16, 2014 8:53:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 16, 2014 8:53:19 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/administrateur/Downloads/travaux(9)/travaux/1296047/TP_CarlosCampos/AchetezMoi2/AchetezMoi2/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+mars 16, 2014 8:53:19 PM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+mars 16, 2014 8:53:19 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+mars 16, 2014 8:53:19 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+mars 16, 2014 8:53:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\bookstore.xml
+mars 16, 2014 8:53:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExempleXml.xml
+mars 16, 2014 8:53:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoAjax.xml
+mars 16, 2014 8:53:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\gadgetstore.xml
+mars 16, 2014 8:53:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Librairie.xml
+mars 16, 2014 8:53:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+mars 16, 2014 8:53:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\sitelivres.xml
+mars 16, 2014 8:53:24 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\TESTaJAX.xml
+mars 16, 2014 8:53:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\docs
+mars 16, 2014 8:53:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+mars 16, 2014 8:53:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+mars 16, 2014 8:53:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+mars 16, 2014 8:53:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\sample
+mars 16, 2014 8:53:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:53:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9210 ms
+mars 16, 2014 8:56:42 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+mars 16, 2014 8:56:42 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mars 16, 2014 8:56:44 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+mars 16, 2014 8:56:44 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:56:44 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:56:44 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8009"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+mars 16, 2014 8:56:44 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+mars 16, 2014 8:56:44 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1575 ms
+mars 16, 2014 8:56:44 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+mars 16, 2014 8:56:44 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+mars 16, 2014 8:56:44 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\111MonProjet.xml
+mars 16, 2014 8:56:44 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AchetezMoi2.xml
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 16, 2014 8:56:45 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/administrateur/Downloads/travaux(9)/travaux/1296047/TP_CarlosCampos/AchetezMoi2/AchetezMoi2/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+mars 16, 2014 8:56:45 PM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+mars 16, 2014 8:56:45 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+mars 16, 2014 8:56:45 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+mars 16, 2014 8:56:45 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\bookstore.xml
+mars 16, 2014 8:56:46 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExempleXml.xml
+mars 16, 2014 8:56:46 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoAjax.xml
+mars 16, 2014 8:56:46 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\gadgetstore.xml
+mars 16, 2014 8:56:46 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Librairie.xml
+mars 16, 2014 8:56:46 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+mars 16, 2014 8:56:46 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\sitelivres.xml
+mars 16, 2014 8:56:46 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\TESTaJAX.xml
+mars 16, 2014 8:56:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\docs
+mars 16, 2014 8:56:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+mars 16, 2014 8:56:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+mars 16, 2014 8:56:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+mars 16, 2014 8:56:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\sample
+mars 16, 2014 8:56:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:56:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2944 ms
+mars 16, 2014 8:56:47 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:766)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:712)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+
+mars 16, 2014 8:56:47 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:56:47 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:56:47 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+mars 16, 2014 8:56:47 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:56:47 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:56:47 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:56:47 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:57:00 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+mars 16, 2014 8:57:00 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mars 16, 2014 8:57:02 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+mars 16, 2014 8:57:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:57:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:57:02 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8009"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+mars 16, 2014 8:57:02 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+mars 16, 2014 8:57:02 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1524 ms
+mars 16, 2014 8:57:02 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+mars 16, 2014 8:57:02 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+mars 16, 2014 8:57:02 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\111MonProjet.xml
+mars 16, 2014 8:57:02 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AchetezMoi2.xml
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 16, 2014 8:57:03 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/administrateur/Downloads/travaux(9)/travaux/1296047/TP_CarlosCampos/AchetezMoi2/AchetezMoi2/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+mars 16, 2014 8:57:03 PM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+mars 16, 2014 8:57:03 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+mars 16, 2014 8:57:03 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+mars 16, 2014 8:57:03 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\bookstore.xml
+mars 16, 2014 8:57:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExempleXml.xml
+mars 16, 2014 8:57:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoAjax.xml
+mars 16, 2014 8:57:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\gadgetstore.xml
+mars 16, 2014 8:57:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Librairie.xml
+mars 16, 2014 8:57:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+mars 16, 2014 8:57:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\sitelivres.xml
+mars 16, 2014 8:57:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\TESTaJAX.xml
+mars 16, 2014 8:57:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\docs
+mars 16, 2014 8:57:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+mars 16, 2014 8:57:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+mars 16, 2014 8:57:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+mars 16, 2014 8:57:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\sample
+mars 16, 2014 8:57:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:57:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2998 ms
+mars 16, 2014 8:57:05 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:766)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:712)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+
+mars 16, 2014 8:57:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:57:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:57:05 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+mars 16, 2014 8:57:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:57:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+mars 16, 2014 8:57:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:57:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:57:22 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+mars 16, 2014 8:57:22 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mars 16, 2014 8:57:24 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+mars 16, 2014 8:57:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 8:57:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 8:57:24 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8009"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+mars 16, 2014 8:57:24 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+mars 16, 2014 8:57:24 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1565 ms
+mars 16, 2014 8:57:24 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+mars 16, 2014 8:57:24 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+mars 16, 2014 8:57:24 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\111MonProjet.xml
+mars 16, 2014 8:57:24 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AchetezMoi2.xml
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 16, 2014 8:57:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 16, 2014 8:57:25 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/administrateur/Downloads/travaux(9)/travaux/1296047/TP_CarlosCampos/AchetezMoi2/AchetezMoi2/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+mars 16, 2014 8:57:25 PM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+mars 16, 2014 8:57:25 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+mars 16, 2014 8:57:25 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+mars 16, 2014 8:57:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\bookstore.xml
+mars 16, 2014 8:57:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExempleXml.xml
+mars 16, 2014 8:57:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoAjax.xml
+mars 16, 2014 8:57:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\gadgetstore.xml
+mars 16, 2014 8:57:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Librairie.xml
+mars 16, 2014 8:57:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+mars 16, 2014 8:57:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\sitelivres.xml
+mars 16, 2014 8:57:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\TESTaJAX.xml
+mars 16, 2014 8:57:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\docs
+mars 16, 2014 8:57:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+mars 16, 2014 8:57:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+mars 16, 2014 8:57:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+mars 16, 2014 8:57:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\sample
+mars 16, 2014 8:57:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 8:57:27 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3052 ms
+mars 16, 2014 8:57:34 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExServiceWeb.xml
+mars 16, 2014 8:57:35 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ExServiceWeb]] after start() had already been called. The second call will be ignored.
+mars 16, 2014 8:57:36 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExServiceWeb.xml
+mars 16, 2014 9:03:04 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mars 16, 2014 9:03:04 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 9:03:04 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 9:03:04 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+mars 16, 2014 9:03:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 9:03:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 9:03:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 9:03:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 9:56:03 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+mars 16, 2014 9:56:03 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mars 16, 2014 9:56:04 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+mars 16, 2014 9:56:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 9:56:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 9:56:04 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8009"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+mars 16, 2014 9:56:04 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+mars 16, 2014 9:56:04 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1601 ms
+mars 16, 2014 9:56:04 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+mars 16, 2014 9:56:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+mars 16, 2014 9:56:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\111MonProjet.xml
+mars 16, 2014 9:56:05 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AchetezMoi2.xml
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+mars 16, 2014 9:56:06 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/administrateur/Downloads/travaux(9)/travaux/1296047/TP_CarlosCampos/AchetezMoi2/AchetezMoi2/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+mars 16, 2014 9:56:06 PM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+mars 16, 2014 9:56:06 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+mars 16, 2014 9:56:06 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+mars 16, 2014 9:56:06 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\bookstore.xml
+mars 16, 2014 9:56:07 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExempleXml.xml
+mars 16, 2014 9:56:07 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoAjax.xml
+mars 16, 2014 9:56:07 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExServiceWeb.xml
+mars 16, 2014 9:56:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\gadgetstore.xml
+mars 16, 2014 9:56:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Librairie.xml
+mars 16, 2014 9:56:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+mars 16, 2014 9:56:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\sitelivres.xml
+mars 16, 2014 9:56:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\TESTaJAX.xml
+mars 16, 2014 9:56:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\docs
+mars 16, 2014 9:56:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+mars 16, 2014 9:56:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+mars 16, 2014 9:56:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+mars 16, 2014 9:56:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\sample
+mars 16, 2014 9:56:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 9:56:09 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4115 ms
+mars 16, 2014 9:56:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoServiceWeb.xml
+mars 16, 2014 9:56:30 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/exoServiceWeb]] after start() had already been called. The second call will be ignored.
+mars 16, 2014 9:56:36 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoServiceWeb.xml
+mars 16, 2014 10:01:38 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/exoAjax]
+mars 16, 2014 10:01:39 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/Librairie]
+mars 16, 2014 10:01:40 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/gadgetstore]
+mars 16, 2014 10:01:41 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/AchetezMoi2]
+mars 16, 2014 10:01:41 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/111MonProjet]
+mars 16, 2014 10:01:42 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/ExempleXml]
+mars 16, 2014 10:01:43 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/bookstore]
+mars 16, 2014 10:01:44 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/TESTaJAX]
+mars 16, 2014 10:01:44 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/sitelivres]
+mars 16, 2014 10:01:48 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/bookstore]
+mars 16, 2014 10:01:48 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/Librairie]
+mars 16, 2014 10:01:49 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/sitelivres]
+mars 16, 2014 10:01:50 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/exoAjax]
+mars 16, 2014 10:01:50 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/TESTaJAX]
+mars 16, 2014 10:01:51 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/AchetezMoi2]
+mars 16, 2014 10:01:52 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/ExempleXml]
+mars 16, 2014 10:01:53 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/gadgetstore]
+mars 16, 2014 10:01:53 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/111MonProjet]
+mars 16, 2014 10:02:22 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/sample]
+mars 16, 2014 10:02:24 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/sample]
+mars 16, 2014 10:03:28 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/ExServiceWeb]
+mars 16, 2014 10:03:34 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mars 16, 2014 10:03:34 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 10:03:34 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 10:03:34 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+mars 16, 2014 10:03:35 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 10:03:35 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 10:03:35 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 10:03:35 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 10:03:35 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/ExServiceWeb]
+mars 16, 2014 10:03:38 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+mars 16, 2014 10:03:38 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mars 16, 2014 10:03:39 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+mars 16, 2014 10:03:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 10:03:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 10:03:39 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8009"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+mars 16, 2014 10:03:39 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+mars 16, 2014 10:03:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1579 ms
+mars 16, 2014 10:03:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+mars 16, 2014 10:03:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+mars 16, 2014 10:03:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoServiceWeb.xml
+mars 16, 2014 10:03:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+mars 16, 2014 10:03:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\docs
+mars 16, 2014 10:03:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+mars 16, 2014 10:03:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+mars 16, 2014 10:03:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+mars 16, 2014 10:03:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 10:03:40 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 686 ms
+mars 16, 2014 10:04:28 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/exoServiceWeb]
+mars 16, 2014 10:04:36 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/exoServiceWeb]
+mars 16, 2014 10:04:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoServiceWeb.xml
+mars 16, 2014 10:04:50 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/exoServiceWeb]] after start() had already been called. The second call will be ignored.
+mars 16, 2014 10:04:56 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoServiceWeb.xml
+mars 16, 2014 11:16:45 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mars 16, 2014 11:16:45 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 11:16:45 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 11:16:46 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+mars 16, 2014 11:16:46 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 11:16:46 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8085"]
+mars 16, 2014 11:16:46 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+mars 16, 2014 11:16:46 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]

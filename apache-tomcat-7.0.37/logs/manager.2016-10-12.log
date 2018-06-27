@@ -1,0 +1,18 @@
+oct. 12, 2016 8:59:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 12, 2016 8:59:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 12, 2016 9:00:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 12, 2016 9:00:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/Travail3a'
+oct. 12, 2016 9:01:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 12, 2016 9:01:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 12, 2016 9:01:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context4279263643882145493.xml'
+oct. 12, 2016 9:01:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/Travail3a'
+oct. 12, 2016 9:02:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'

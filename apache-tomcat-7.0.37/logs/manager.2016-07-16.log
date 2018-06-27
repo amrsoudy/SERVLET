@@ -1,0 +1,20 @@
+juil. 16, 2016 5:01:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+juil. 16, 2016 5:01:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+juil. 16, 2016 5:01:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juil. 16, 2016 5:01:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juil. 16, 2016 5:01:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context5947384313450981678.xml'
+juil. 16, 2016 5:01:45 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/ProjetWeb'
+juil. 16, 2016 5:05:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juil. 16, 2016 5:05:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juil. 16, 2016 5:05:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context3826173715126134305.xml'
+juil. 16, 2016 5:05:55 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/Quebeccovoiturage_Web_final'

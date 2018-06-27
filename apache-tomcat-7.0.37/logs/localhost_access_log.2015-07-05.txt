@@ -1,0 +1,14 @@
+127.0.0.1 - - [05/Jul/2015:10:47:54 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [05/Jul/2015:10:47:55 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [05/Jul/2015:10:47:55 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [05/Jul/2015:10:47:55 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [05/Jul/2015:10:47:55 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - test [05/Jul/2015:10:47:56 -0400] "GET /manager/text/list HTTP/1.1" 200 2985
+127.0.0.1 - test [05/Jul/2015:10:47:56 -0400] "GET /manager/text/list HTTP/1.1" 200 2985
+127.0.0.1 - test [05/Jul/2015:10:47:58 -0400] "GET /manager/text/deploy?config=file%3A%2FC%3A%2FUsers%2FADMINI%7E1%2FAppData%2FLocal%2FTemp%2Fcontext1100692705144189877.xml&path=/ExamenPratique HTTP/1.1" 200 70
+127.0.0.1 - test [05/Jul/2015:10:47:58 -0400] "GET /manager/text/start?path=/ExamenPratique HTTP/1.1" 200 69
+127.0.0.1 - - [05/Jul/2015:10:48:00 -0400] "GET /ExamenPratique HTTP/1.1" 302 -
+127.0.0.1 - - [05/Jul/2015:10:48:02 -0400] "GET /ExamenPratique/ HTTP/1.1" 200 1225
+127.0.0.1 - - [05/Jul/2015:10:48:02 -0400] "GET /favicon.ico HTTP/1.1" 404 973
+127.0.0.1 - - [05/Jul/2015:10:48:16 -0400] "GET /ExamenPratique/search.jsp HTTP/1.1" 200 657
+127.0.0.1 - - [05/Jul/2015:10:48:22 -0400] "GET /ExamenPratique/Search?word=1 HTTP/1.1" 200 657

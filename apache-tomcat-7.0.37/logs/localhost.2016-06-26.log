@@ -1,0 +1,18 @@
+juin 26, 2016 11:32:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+juin 26, 2016 11:32:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'objisapp'
+juin 26, 2016 11:32:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+juin 26, 2016 11:32:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+juin 26, 2016 11:32:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1c3cfd9')
+juin 26, 2016 11:38:35 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'objisapp'
+juin 26, 2016 11:38:35 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+juin 26, 2016 11:38:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+juin 26, 2016 11:38:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()

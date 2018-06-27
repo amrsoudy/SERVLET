@@ -1,0 +1,22 @@
+sept. 24, 2016 9:19:32 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+sept. 24, 2016 9:19:32 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+sept. 24, 2016 9:19:33 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+sept. 24, 2016 9:19:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+sept. 24, 2016 9:19:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+sept. 24, 2016 9:19:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+sept. 24, 2016 9:19:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+sept. 24, 2016 9:19:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'objisapp'
+sept. 24, 2016 9:19:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+sept. 24, 2016 9:19:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+sept. 24, 2016 9:19:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@f672ed')

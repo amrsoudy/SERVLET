@@ -1,0 +1,30 @@
+juin 11, 2016 12:59:17 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+juin 11, 2016 12:59:17 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+juin 11, 2016 12:59:17 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juin 11, 2016 12:59:17 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+juin 11, 2016 12:59:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context884126984137434310.xml'
+juin 11, 2016 12:59:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/'
+juin 11, 2016 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juin 11, 2016 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/'
+juin 11, 2016 1:00:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juin 11, 2016 1:00:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juin 11, 2016 1:00:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+juin 11, 2016 1:00:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context2680022392304025056.xml'
+juin 11, 2016 1:00:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/'
+juin 11, 2016 1:04:08 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juin 11, 2016 1:04:08 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/'

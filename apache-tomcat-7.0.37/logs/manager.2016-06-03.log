@@ -1,0 +1,24 @@
+juin 03, 2016 12:00:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context3111632513815135232.xml'
+juin 03, 2016 12:00:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/'
+juin 03, 2016 12:01:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juin 03, 2016 12:01:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juin 03, 2016 12:01:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+juin 03, 2016 12:01:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context6311146991901295509.xml'
+juin 03, 2016 12:05:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+juin 03, 2016 12:05:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+juin 03, 2016 12:05:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+juin 03, 2016 12:05:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+juin 03, 2016 12:05:57 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context4906934849307809409.xml'
+juin 03, 2016 12:05:57 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/'

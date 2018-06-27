@@ -1,0 +1,440 @@
+juil. 05, 2015 10:47:44 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+juil. 05, 2015 10:47:44 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+juil. 05, 2015 10:47:45 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+juil. 05, 2015 10:47:46 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8085"]
+juil. 05, 2015 10:47:46 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+juil. 05, 2015 10:47:46 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2584 ms
+juil. 05, 2015 10:47:46 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+juil. 05, 2015 10:47:46 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+juil. 05, 2015 10:47:46 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AppFormation.xml
+juil. 05, 2015 10:47:46 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ApplicationExamen.xml
+juil. 05, 2015 10:47:47 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ConversionTempStruts2.xml
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Parsing configuration file [struts-default.xml]
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Unable to locate configuration files of the name struts-plugin.xml, skipping
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Parsing configuration file [struts-plugin.xml]
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Parsing configuration file [struts.xml]
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for class com.opensymphony.xwork2.ObjectFactory
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+juil. 05, 2015 10:47:48 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+juil. 05, 2015 10:47:48 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\cookiesETsessions.xml
+juil. 05, 2015 10:47:48 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base H:\bdeb\cours dev Web\notes de cours\jour3\cookiesETsessions\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 05, 2015 10:47:48 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 05, 2015 10:47:48 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 05, 2015 10:47:48 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/cookiesETsessions] startup failed due to previous errors
+juil. 05, 2015 10:47:48 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExamenIntra.xml
+juil. 05, 2015 10:47:49 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExamenIntra_WilliamTaylor.xml
+juil. 05, 2015 10:47:49 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exCours.xml
+juil. 05, 2015 10:47:49 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base H:\bdeb\cours dev Web\notes de cours\jour2\exCours\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 05, 2015 10:47:49 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 05, 2015 10:47:49 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 05, 2015 10:47:49 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/exCours] startup failed due to previous errors
+juil. 05, 2015 10:47:49 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exempleI18n.xml
+juil. 05, 2015 10:47:49 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exemplesJour2.xml
+juil. 05, 2015 10:47:49 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base H:\bdeb\cours dev Web\notes de cours\jour2\exemplesJour2\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 05, 2015 10:47:49 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 05, 2015 10:47:49 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 05, 2015 10:47:49 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/exemplesJour2] startup failed due to previous errors
+juil. 05, 2015 10:47:49 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exemplesJstl.xml
+juil. 05, 2015 10:47:49 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoServiceWeb.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\FileUploadExample.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base H:\bdeb\cours dev Web\notes de cours\jour3\FileUploadExample\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/FileUploadExample] startup failed due to previous errors
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Intra.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\intra818BouzidPratique1.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Intra818Mai2015.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Intra818_kejiaHU.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\IntraWeb.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Intra_ManuelPalacio_1495567_session4.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\jour5EL.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base H:\bdeb\cours dev Web\notes de cours\bon jour 5\jour5EL\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/jour5EL] startup failed due to previous errors
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ProjetJour3.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base H:\bdeb\cours dev Web\notes de cours\jour3\ProjetJour3\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/ProjetJour3] startup failed due to previous errors
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\projetjour4.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base H:\bdeb\cours dev Web\notes de cours\jour4\projetjour4\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 05, 2015 10:47:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/projetjour4] startup failed due to previous errors
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+juil. 05, 2015 10:47:50 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\TravailPersistance.xml
+juil. 05, 2015 10:47:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\WebApplication1.xml
+juil. 05, 2015 10:47:51 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base C:\TEMP\WebApplication1\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 05, 2015 10:47:51 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 05, 2015 10:47:51 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 05, 2015 10:47:51 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/WebApplication1] startup failed due to previous errors
+juil. 05, 2015 10:47:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\WebIntra20_05_2015.xml
+juil. 05, 2015 10:47:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\WebIntra_VAN1.xml
+juil. 05, 2015 10:47:51 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebIntra_VAN1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.IllegalArgumentException: The servlets named [DoLogin] and [van.servlet.DoLogin] are both mapped to the url-pattern [/DoLogin] which is not permitted
+	at org.apache.catalina.deploy.WebXml.addServletMapping(WebXml.java:335)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2412)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2125)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2080)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2073)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2073)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1300)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5179)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 more
+
+juil. 05, 2015 10:47:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\WebIntra_VAN1.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebIntra_VAN1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+juil. 05, 2015 10:47:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\docs
+juil. 05, 2015 10:47:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+juil. 05, 2015 10:47:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+juil. 05, 2015 10:47:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+juil. 05, 2015 10:47:54 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8085"]
+juil. 05, 2015 10:47:54 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+juil. 05, 2015 10:47:54 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8208 ms
+juil. 05, 2015 10:47:56 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ExamenPratique.xml
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Parsing configuration file [struts-default.xml]
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Parsing configuration file [struts-plugin.xml]
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Parsing configuration file [struts.xml]
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+juil. 05, 2015 10:47:58 AM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+juil. 05, 2015 10:47:58 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ExamenPratique]] after start() had already been called. The second call will be ignored.
+juil. 05, 2015 10:48:01 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.

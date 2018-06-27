@@ -1,0 +1,486 @@
+juil. 10, 2016 9:32:40 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_10\bin ;F:\app\administrateur\product\11.2.0\client_1;F:\app\administrateur\product\11.2.0\client_1\bin;F:\app\administrateur\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Java\jdk1.7.0_10\bin;C:\Python34;C:\Program Files\Java\jdk1.7.0_10\bin ;C:\Program Files\Java\jdk1.7.0_10\bin ;F:\app\administrateur\product\11.2.0\client_1;F:\app\administrateur\product\11.2.0\client_1\bin;F:\app\administrateur\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;.
+juil. 10, 2016 9:32:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8085"]
+juil. 10, 2016 9:32:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+juil. 10, 2016 9:32:41 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:382)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+juil. 10, 2016 9:32:41 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:382)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+juil. 10, 2016 9:32:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1596 ms
+juil. 10, 2016 9:32:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+juil. 10, 2016 9:32:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+juil. 10, 2016 9:32:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\FileUploadExample.xml
+juil. 10, 2016 9:32:42 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [283] milliseconds.
+juil. 10, 2016 9:32:43 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+juil. 10, 2016 9:32:43 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\SpringTest.xml
+juil. 10, 2016 9:32:47 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+juil. 10, 2016 9:32:47 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Sun Jul 10 21:32:47 EDT 2016]; root of context hierarchy
+juil. 10, 2016 9:32:47 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+juil. 10, 2016 9:32:47 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 506 ms
+juil. 10, 2016 9:32:47 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization started
+juil. 10, 2016 9:32:47 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Jul 10 21:32:47 EDT 2016]; parent: Root WebApplicationContext
+juil. 10, 2016 9:32:47 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+juil. 10, 2016 9:32:47 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/index.htm] onto handler 'indexController'
+juil. 10, 2016 9:32:47 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization completed in 219 ms
+juil. 10, 2016 9:32:47 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.37\webapps\demospringmvc.war
+juil. 10, 2016 9:32:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+juil. 10, 2016 9:32:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+juil. 10, 2016 9:32:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+juil. 10, 2016 9:32:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8085"]
+juil. 10, 2016 9:32:49 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8641 ms
+juil. 10, 2016 9:32:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AgenceVoyage.xml
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+juil. 10, 2016 9:32:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+juil. 10, 2016 9:32:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+juil. 10, 2016 9:32:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+juil. 10, 2016 9:32:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+juil. 10, 2016 9:32:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+juil. 10, 2016 9:32:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+juil. 10, 2016 9:32:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+juil. 10, 2016 9:32:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+juil. 10, 2016 9:32:52 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/I:/bdeb/cours%20dev%20Web/New%20folder/AgenceVoyage/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+juil. 10, 2016 9:32:52 PM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+juil. 10, 2016 9:32:52 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+juil. 10, 2016 9:32:52 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+juil. 10, 2016 9:32:53 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AgenceVoyage]] after start() had already been called. The second call will be ignored.
+juil. 10, 2016 9:33:01 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+juil. 10, 2016 9:33:17 PM org.apache.struts.tiles.TilesRequestProcessor initDefinitionsMapping
+INFO: Tiles definition factory found for request processor ''.
+juil. 10, 2016 10:00:25 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\prepFinalAgenceVoyage.xml
+juil. 10, 2016 10:00:26 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/prepFinalAgenceVoyage]] after start() had already been called. The second call will be ignored.
+juil. 10, 2016 10:07:56 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/prepFinalAgenceVoyage]
+juil. 10, 2016 10:12:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\prepFinalAgenceVoyage.xml
+juil. 10, 2016 10:12:30 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/prepFinalAgenceVoyage]] after start() had already been called. The second call will be ignored.
+juil. 10, 2016 10:16:33 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+juil. 10, 2016 10:16:33 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8085"]
+juil. 10, 2016 10:16:33 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+juil. 10, 2016 10:16:33 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+juil. 10, 2016 10:16:33 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Jul 10 21:32:47 EDT 2016]; parent: Root WebApplicationContext
+juil. 10, 2016 10:16:33 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Sun Jul 10 21:32:47 EDT 2016]; root of context hierarchy
+juil. 10, 2016 10:16:33 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8085"]
+juil. 10, 2016 10:16:33 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8085"]
+juil. 10, 2016 10:16:33 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+juil. 10, 2016 10:16:33 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+juil. 10, 2016 10:16:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_10\bin ;F:\app\administrateur\product\11.2.0\client_1;F:\app\administrateur\product\11.2.0\client_1\bin;F:\app\administrateur\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Java\jdk1.7.0_10\bin;C:\Python34;C:\Program Files\Java\jdk1.7.0_10\bin ;C:\Program Files\Java\jdk1.7.0_10\bin ;F:\app\administrateur\product\11.2.0\client_1;F:\app\administrateur\product\11.2.0\client_1\bin;F:\app\administrateur\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;.
+juil. 10, 2016 10:16:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8085"]
+juil. 10, 2016 10:16:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+juil. 10, 2016 10:16:36 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:382)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+juil. 10, 2016 10:16:36 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:382)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+juil. 10, 2016 10:16:36 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 431 ms
+juil. 10, 2016 10:16:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+juil. 10, 2016 10:16:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+juil. 10, 2016 10:16:36 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AgenceVoyage.xml
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+juil. 10, 2016 10:16:38 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [232] milliseconds.
+juil. 10, 2016 10:16:38 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/I:/bdeb/cours%20dev%20Web/New%20folder/AgenceVoyage/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+juil. 10, 2016 10:16:39 PM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+juil. 10, 2016 10:16:39 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+juil. 10, 2016 10:16:39 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+juil. 10, 2016 10:16:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\FileUploadExample.xml
+juil. 10, 2016 10:16:40 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\prepFinalAgenceVoyage.xml
+juil. 10, 2016 10:16:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+juil. 10, 2016 10:16:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\SpringTest.xml
+juil. 10, 2016 10:16:43 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+juil. 10, 2016 10:16:43 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Sun Jul 10 22:16:43 EDT 2016]; root of context hierarchy
+juil. 10, 2016 10:16:43 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+juil. 10, 2016 10:16:43 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 302 ms
+juil. 10, 2016 10:16:43 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization started
+juil. 10, 2016 10:16:43 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Jul 10 22:16:43 EDT 2016]; parent: Root WebApplicationContext
+juil. 10, 2016 10:16:43 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+juil. 10, 2016 10:16:43 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/index.htm] onto handler 'indexController'
+juil. 10, 2016 10:16:44 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization completed in 244 ms
+juil. 10, 2016 10:16:44 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.37\webapps\demospringmvc.war
+juil. 10, 2016 10:16:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+juil. 10, 2016 10:16:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+juil. 10, 2016 10:16:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+juil. 10, 2016 10:16:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8085"]
+juil. 10, 2016 10:16:45 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8456 ms
+juil. 10, 2016 10:16:49 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/prepFinalAgenceVoyage]
+juil. 10, 2016 10:16:49 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\prepFinalAgenceVoyage.xml
+juil. 10, 2016 10:16:50 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/prepFinalAgenceVoyage]] after start() had already been called. The second call will be ignored.
+juil. 10, 2016 10:18:47 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/prepFinalAgenceVoyage]
+juil. 10, 2016 10:18:47 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\prepFinalAgenceVoyage.xml
+juil. 10, 2016 10:18:48 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/prepFinalAgenceVoyage]] after start() had already been called. The second call will be ignored.
+juil. 10, 2016 10:20:07 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/prepFinalAgenceVoyage]
+juil. 10, 2016 10:20:07 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\prepFinalAgenceVoyage.xml
+juil. 10, 2016 10:20:09 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/prepFinalAgenceVoyage]] after start() had already been called. The second call will be ignored.
+juil. 10, 2016 10:21:35 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/prepFinalAgenceVoyage]
+juil. 10, 2016 10:21:35 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\prepFinalAgenceVoyage.xml
+juil. 10, 2016 10:21:36 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/prepFinalAgenceVoyage]] after start() had already been called. The second call will be ignored.
+juil. 10, 2016 10:24:48 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/prepFinalAgenceVoyage]
+juil. 10, 2016 10:24:48 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\prepFinalAgenceVoyage.xml
+juil. 10, 2016 10:24:50 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/prepFinalAgenceVoyage]] after start() had already been called. The second call will be ignored.
+juil. 10, 2016 10:31:33 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/prepFinalAgenceVoyage] has started
+juil. 10, 2016 10:31:33 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/prepFinalAgenceVoyage] is completed
+juil. 10, 2016 10:38:52 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/prepFinalAgenceVoyage] has started
+juil. 10, 2016 10:38:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/prepFinalAgenceVoyage] is completed
+juil. 10, 2016 10:39:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/prepFinalAgenceVoyage] has started
+juil. 10, 2016 10:39:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/prepFinalAgenceVoyage] is completed
+juil. 10, 2016 10:44:24 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/prepFinalAgenceVoyage] has started
+juil. 10, 2016 10:44:25 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/prepFinalAgenceVoyage] is completed
+juil. 10, 2016 10:44:27 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+juil. 10, 2016 10:48:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/prepFinalAgenceVoyage] has started
+juil. 10, 2016 10:48:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/prepFinalAgenceVoyage] is completed
+juil. 10, 2016 11:04:19 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/AgenceVoyage]
+juil. 10, 2016 11:04:20 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/prepFinalAgenceVoyage]
+juil. 10, 2016 11:04:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AgenceVoyage.xml
+juil. 10, 2016 11:04:20 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base I:\bdeb\cours dev Web\New folder\AgenceVoyage\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+juil. 10, 2016 11:04:20 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 10, 2016 11:04:20 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 10, 2016 11:04:20 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/AgenceVoyage] startup failed due to previous errors
+juil. 10, 2016 11:04:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\prepFinalAgenceVoyage.xml
+juil. 10, 2016 11:04:20 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base I:\bdeb\cours dev Web\New folder\prepFinalAgenceVoyage\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+juil. 10, 2016 11:04:20 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+juil. 10, 2016 11:04:20 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+juil. 10, 2016 11:04:20 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/prepFinalAgenceVoyage] startup failed due to previous errors

@@ -1,0 +1,8 @@
+oct. 12, 2016 9:00:48 AM org.apache.catalina.util.LifecycleBase stop
+INFO: The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Travail3a]] after stop() had already been called. The second call will be ignored.
+oct. 12, 2016 9:00:49 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/Travail3a]
+oct. 12, 2016 9:01:23 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Travail3a.xml
+oct. 12, 2016 9:01:31 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Travail3a]] after start() had already been called. The second call will be ignored.

@@ -1,0 +1,12 @@
+mai 23, 2016 10:17:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+mai 23, 2016 10:17:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+mai 23, 2016 10:17:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 23, 2016 10:17:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 23, 2016 10:17:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context7166371654742274086.xml'
+mai 23, 2016 10:17:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/DreamSMobile'

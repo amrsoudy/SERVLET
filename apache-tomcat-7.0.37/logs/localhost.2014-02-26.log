@@ -1,0 +1,89 @@
+févr. 26, 2014 10:47:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+févr. 26, 2014 10:47:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+févr. 26, 2014 10:47:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@14432417')
+févr. 26, 2014 1:45:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet Faces Servlet as unavailable
+févr. 26, 2014 1:45:26 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet /Librairie threw load() exception
+java.lang.ClassNotFoundException: javax.faces.webapp.FacesServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1713)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1558)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:527)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:509)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:137)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5033)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5317)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1276)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1440)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:301)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:722)
+
+févr. 26, 2014 1:45:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet Faces Servlet as unavailable
+févr. 26, 2014 1:45:36 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet /Librairie threw load() exception
+java.lang.ClassNotFoundException: javax.faces.webapp.FacesServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1713)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1558)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:527)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:509)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:137)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5033)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5317)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:536)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1462)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:791)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1445)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:860)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:357)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1852)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+févr. 26, 2014 11:20:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+févr. 26, 2014 11:20:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()

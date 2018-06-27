@@ -1,0 +1,20 @@
+mars 16, 2016 9:23:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+mars 16, 2016 9:23:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+mars 16, 2016 9:23:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2016 9:23:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2016 9:23:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context3348422699740211547.xml'
+mars 16, 2016 9:23:51 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/GestionCookies'
+mars 16, 2016 9:28:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2016 9:28:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2016 9:30:00 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2016 9:30:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'

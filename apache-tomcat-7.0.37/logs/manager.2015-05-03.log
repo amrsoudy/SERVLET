@@ -1,0 +1,120 @@
+mai 03, 2015 8:41:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+mai 03, 2015 8:41:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+mai 03, 2015 8:41:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 8:41:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/ProjetJour3'
+mai 03, 2015 8:41:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context5279694418970595694.xml'
+mai 03, 2015 8:41:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/ProjetJour3'
+mai 03, 2015 9:13:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 9:13:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:05:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:05:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:05:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context2343552158809495092.xml'
+mai 03, 2015 10:05:53 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/FileUploadExample'
+mai 03, 2015 10:09:53 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:09:53 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/FileUploadExample'
+mai 03, 2015 10:11:01 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:11:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:11:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:11:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context899366713738097780.xml'
+mai 03, 2015 10:11:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/FileUploadExample'
+mai 03, 2015 10:12:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:12:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application '/FileUploadExample'
+mai 03, 2015 10:12:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/FileUploadExample'
+mai 03, 2015 10:12:27 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:12:27 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/FileUploadExample'
+mai 03, 2015 10:13:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:13:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:13:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:13:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application '/FileUploadExample'
+mai 03, 2015 10:13:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/FileUploadExample'
+mai 03, 2015 10:14:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:14:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/FileUploadExample'
+mai 03, 2015 10:14:46 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:14:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:14:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:14:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context2154050744612189985.xml'
+mai 03, 2015 10:14:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/FileUploadExample'
+mai 03, 2015 10:15:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:15:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/FileUploadExample'
+mai 03, 2015 10:15:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:15:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/FileUploadExample'
+mai 03, 2015 10:16:03 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:16:03 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:16:03 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context6461152288931153776.xml'
+mai 03, 2015 10:16:03 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/FileUploadExample'
+mai 03, 2015 10:20:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:20:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/FileUploadExample'
+mai 03, 2015 10:20:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:20:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/FileUploadExample'
+mai 03, 2015 10:21:41 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:21:41 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:21:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/FileUploadExample'
+mai 03, 2015 10:28:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:28:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/FileUploadExample'
+mai 03, 2015 10:28:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:28:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 10:28:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/FileUploadExample'
+mai 03, 2015 11:32:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 11:32:45 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 11:32:45 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mai 03, 2015 11:33:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'

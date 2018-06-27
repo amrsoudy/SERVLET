@@ -1,0 +1,44 @@
+juin 08, 2015 5:55:49 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ConversionTempStruts2.xml
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Parsing configuration file [struts-default.xml]
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Unable to locate configuration files of the name struts-plugin.xml, skipping
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Parsing configuration file [struts-plugin.xml]
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Parsing configuration file [struts.xml]
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for class com.opensymphony.xwork2.ObjectFactory
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+juin 08, 2015 5:56:00 PM com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+INFO: Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+juin 08, 2015 5:56:04 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConversionTempStruts2]] after start() had already been called. The second call will be ignored.

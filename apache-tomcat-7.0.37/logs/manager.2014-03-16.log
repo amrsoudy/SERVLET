@@ -1,0 +1,88 @@
+mars 16, 2014 8:57:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+mars 16, 2014 8:57:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+mars 16, 2014 8:57:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 8:57:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 8:57:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context4783757719845042231.xml'
+mars 16, 2014 8:57:35 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/ExServiceWeb'
+mars 16, 2014 9:56:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+mars 16, 2014 9:56:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+mars 16, 2014 9:56:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 9:56:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 9:56:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context1066818178794812389.xml'
+mars 16, 2014 9:56:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/exoServiceWeb'
+mars 16, 2014 10:01:09 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:01:09 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:01:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/exoAjax'
+mars 16, 2014 10:01:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/Librairie'
+mars 16, 2014 10:01:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/gadgetstore'
+mars 16, 2014 10:01:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/AchetezMoi2'
+mars 16, 2014 10:01:41 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/111MonProjet'
+mars 16, 2014 10:01:41 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/ExempleXml'
+mars 16, 2014 10:01:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/bookstore'
+mars 16, 2014 10:01:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/TESTaJAX'
+mars 16, 2014 10:01:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/sitelivres'
+mars 16, 2014 10:01:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:01:44 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:02:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/sample'
+mars 16, 2014 10:02:22 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:02:22 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:03:27 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/ExServiceWeb'
+mars 16, 2014 10:03:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:03:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:04:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+mars 16, 2014 10:04:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+mars 16, 2014 10:04:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:04:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:04:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:04:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/exoServiceWeb'
+mars 16, 2014 10:04:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/exoServiceWeb'
+mars 16, 2014 10:04:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:04:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:04:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:04:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+mars 16, 2014 10:04:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/ADMINI~1/AppData/Local/Temp/context5251706852612923603.xml'
+mars 16, 2014 10:04:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/exoServiceWeb'

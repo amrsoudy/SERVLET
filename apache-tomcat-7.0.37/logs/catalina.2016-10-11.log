@@ -1,0 +1,104 @@
+oct. 11, 2016 8:34:42 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ManipulationsJour2.xml
+oct. 11, 2016 8:34:48 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ManipulationsJour2]] after start() had already been called. The second call will be ignored.
+oct. 11, 2016 9:02:04 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/ManipulationsJour2]
+oct. 11, 2016 9:02:04 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ManipulationsJour2]] after start() had already been called. The second call will be ignored.
+oct. 11, 2016 9:18:34 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] has started
+oct. 11, 2016 9:18:35 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] is completed
+oct. 11, 2016 9:18:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] has started
+oct. 11, 2016 9:18:40 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] is completed
+oct. 11, 2016 9:21:23 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/ManipulationsJour2]
+oct. 11, 2016 9:21:34 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ManipulationsJour2.xml
+oct. 11, 2016 9:21:35 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ManipulationsJour2]] after start() had already been called. The second call will be ignored.
+oct. 11, 2016 9:42:06 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/ManipulationsJour2]
+oct. 11, 2016 9:42:06 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] has started
+oct. 11, 2016 9:42:07 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] is completed
+oct. 11, 2016 9:42:09 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] has started
+oct. 11, 2016 9:42:10 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] is completed
+oct. 11, 2016 9:45:05 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] has started
+oct. 11, 2016 9:45:06 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] is completed
+oct. 11, 2016 9:47:46 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] has started
+oct. 11, 2016 9:47:47 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] is completed
+oct. 11, 2016 10:58:04 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] has started
+oct. 11, 2016 10:58:06 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ManipulationsJour2] is completed
+oct. 11, 2016 11:00:14 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Travail3a.xml
+oct. 11, 2016 11:00:15 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Travail3a]] after start() had already been called. The second call will be ignored.
+oct. 11, 2016 11:43:02 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/Travail3a]
+oct. 11, 2016 11:43:03 AM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/ManipulationsJour2]
+oct. 11, 2016 11:43:04 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ManipulationsJour2.xml
+oct. 11, 2016 11:43:04 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base I:\bdeb\cours dev Web\notes de cours\jour3\ManipulationsJour2\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+oct. 11, 2016 11:43:04 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+oct. 11, 2016 11:43:04 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+oct. 11, 2016 11:43:04 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/ManipulationsJour2] startup failed due to previous errors
+oct. 11, 2016 11:43:04 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Travail3a.xml
+oct. 11, 2016 11:43:04 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base I:\bdeb\cours dev Web\notes de cours\jour3\Travail3a\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+oct. 11, 2016 11:43:04 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+oct. 11, 2016 11:43:04 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+oct. 11, 2016 11:43:04 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/Travail3a] startup failed due to previous errors

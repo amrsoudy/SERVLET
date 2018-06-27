@@ -1,0 +1,129 @@
+mai 03, 2015 8:41:08 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+mai 03, 2015 8:41:08 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+mai 03, 2015 8:41:10 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+mai 03, 2015 8:41:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8085"]
+mai 03, 2015 8:41:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+mai 03, 2015 8:41:10 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2199 ms
+mai 03, 2015 8:41:10 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+mai 03, 2015 8:41:10 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+mai 03, 2015 8:41:10 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exCours.xml
+mai 03, 2015 8:41:11 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exemplesJour2.xml
+mai 03, 2015 8:41:11 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\exoServiceWeb.xml
+mai 03, 2015 8:41:12 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ProjetJour3.xml
+mai 03, 2015 8:41:12 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+mai 03, 2015 8:41:12 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\WebApplication1.xml
+mai 03, 2015 8:41:12 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base C:\TEMP\WebApplication1\build\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4912)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:657)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1637)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+mai 03, 2015 8:41:12 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+mai 03, 2015 8:41:12 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+mai 03, 2015 8:41:12 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/WebApplication1] startup failed due to previous errors
+mai 03, 2015 8:41:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\docs
+mai 03, 2015 8:41:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+mai 03, 2015 8:41:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+mai 03, 2015 8:41:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+mai 03, 2015 8:41:12 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8085"]
+mai 03, 2015 8:41:12 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+mai 03, 2015 8:41:12 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2016 ms
+mai 03, 2015 8:41:14 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/ProjetJour3]
+mai 03, 2015 8:41:15 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ProjetJour3.xml
+mai 03, 2015 8:41:15 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetJour3]] after start() had already been called. The second call will be ignored.
+mai 03, 2015 10:05:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\FileUploadExample.xml
+mai 03, 2015 10:05:53 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FileUploadExample]] after start() had already been called. The second call will be ignored.
+mai 03, 2015 10:09:54 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/FileUploadExample]
+mai 03, 2015 10:11:14 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\FileUploadExample.xml
+mai 03, 2015 10:11:15 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FileUploadExample]] after start() had already been called. The second call will be ignored.
+mai 03, 2015 10:12:27 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] has started
+mai 03, 2015 10:12:27 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] is completed
+mai 03, 2015 10:12:33 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/FileUploadExample]
+mai 03, 2015 10:12:33 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] has started
+mai 03, 2015 10:12:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] is completed
+mai 03, 2015 10:14:07 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/FileUploadExample]
+mai 03, 2015 10:14:49 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\FileUploadExample.xml
+mai 03, 2015 10:14:49 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FileUploadExample]] after start() had already been called. The second call will be ignored.
+mai 03, 2015 10:15:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] has started
+mai 03, 2015 10:15:45 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] is completed
+mai 03, 2015 10:15:53 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/FileUploadExample]
+mai 03, 2015 10:16:03 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\FileUploadExample.xml
+mai 03, 2015 10:16:03 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FileUploadExample]] after start() had already been called. The second call will be ignored.
+mai 03, 2015 10:20:50 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] has started
+mai 03, 2015 10:20:51 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] is completed
+mai 03, 2015 10:20:52 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] has started
+mai 03, 2015 10:20:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] is completed
+mai 03, 2015 10:21:42 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] has started
+mai 03, 2015 10:21:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] is completed
+mai 03, 2015 10:28:19 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] has started
+mai 03, 2015 10:28:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] is completed
+mai 03, 2015 10:28:30 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] has started
+mai 03, 2015 10:28:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/FileUploadExample] is completed

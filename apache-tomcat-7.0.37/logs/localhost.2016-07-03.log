@@ -1,0 +1,12 @@
+juil. 03, 2016 10:14:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'objisapp'
+juil. 03, 2016 10:14:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+juil. 03, 2016 10:14:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+juil. 03, 2016 10:14:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+juil. 03, 2016 10:14:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+juil. 03, 2016 10:14:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext

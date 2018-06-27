@@ -1,0 +1,194 @@
+août 22, 2016 8:51:06 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_10\bin ;F:\app\administrateur\product\11.2.0\client_1;F:\app\administrateur\product\11.2.0\client_1\bin;F:\app\administrateur\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Java\jdk1.7.0_10\bin;C:\Python34;C:\Program Files\Java\jdk1.7.0_10\bin ;C:\Program Files\Java\jdk1.7.0_10\bin ;F:\app\administrateur\product\11.2.0\client_1;F:\app\administrateur\product\11.2.0\client_1\bin;F:\app\administrateur\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;.
+août 22, 2016 8:51:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8085"]
+août 22, 2016 8:51:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+août 22, 2016 8:51:08 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2860 ms
+août 22, 2016 8:51:08 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+août 22, 2016 8:51:08 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+août 22, 2016 8:51:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\AgenceVoyage.xml
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-tiles is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-bean is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-html is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-logic is already defined
+août 22, 2016 8:51:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://struts.apache.org/tags-nested is already defined
+août 22, 2016 8:51:12 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [318] milliseconds.
+août 22, 2016 8:51:12 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/I:/bdeb/cours%20dev%20Web/New%20folder/AgenceVoyage/build/web/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+août 22, 2016 8:51:12 PM org.apache.struts.tiles.TilesPlugin initDefinitionsFactory
+INFO: Tiles definition factory loaded for module ''.
+août 22, 2016 8:51:12 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+août 22, 2016 8:51:12 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+août 22, 2016 8:51:13 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\FileUploadExample.xml
+août 22, 2016 8:51:13 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\prepFinalAgenceVoyage.xml
+août 22, 2016 8:51:14 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ProjetWeb.xml
+août 22, 2016 8:51:15 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\Quebeccovoiturage_Web_final.xml
+août 22, 2016 8:51:21 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+août 22, 2016 8:51:21 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Mon Aug 22 20:51:21 EDT 2016]; root of context hierarchy
+août 22, 2016 8:51:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+août 22, 2016 8:51:21 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 594 ms
+août 22, 2016 8:51:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization started
+août 22, 2016 8:51:22 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 22 20:51:22 EDT 2016]; parent: Root WebApplicationContext
+août 22, 2016 8:51:22 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/connexion],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.login(java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/deconnexion],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.logout(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/home],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.showHomePage(javax.servlet.http.HttpSession)
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/aide],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.showHelpPage()
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/apropos],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.showAboutPage()
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/chercher_trajet],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.showFindWayPage()
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/connexion],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.showLoginPage()
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/chercher_trajet],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.showAllPaths(java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.ModelMap) throws java.text.ParseException
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/vostrajets],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.showYourPaths(javax.servlet.http.HttpSession,org.springframework.ui.ModelMap)
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/supprimerTrajet],methods=[GET],params=[trajetId],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.deleteYourPaths(java.lang.String)
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/nouveautrajet],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.showPathPage()
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/trajet],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.addnewPath(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.ui.ModelMap) throws java.text.ParseException
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/inscription],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.saveUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.ModelMap) throws java.text.ParseException
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping registerHandlerMethod
+INFO: Mapped "{[/new],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String mvc.control.MasterController.showRegistrationPage(org.springframework.ui.Model)
+août 22, 2016 8:51:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization completed in 1288 ms
+août 22, 2016 8:51:23 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+août 22, 2016 8:51:23 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\SpringTest.xml
+août 22, 2016 8:51:27 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+août 22, 2016 8:51:27 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Mon Aug 22 20:51:27 EDT 2016]; root of context hierarchy
+août 22, 2016 8:51:27 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+août 22, 2016 8:51:27 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 248 ms
+août 22, 2016 8:51:27 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization started
+août 22, 2016 8:51:27 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 22 20:51:27 EDT 2016]; parent: Root WebApplicationContext
+août 22, 2016 8:51:27 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+août 22, 2016 8:51:27 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/index.htm] onto handler 'indexController'
+août 22, 2016 8:51:27 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization completed in 137 ms
+août 22, 2016 8:51:27 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.37\webapps\demospringmvc.war
+août 22, 2016 8:51:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\examples
+août 22, 2016 8:51:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\host-manager
+août 22, 2016 8:51:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.37\webapps\manager
+août 22, 2016 8:51:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8085"]
+août 22, 2016 8:51:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+août 22, 2016 8:51:29 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 20911 ms
+août 22, 2016 8:51:32 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context []
+août 22, 2016 8:51:32 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+août 22, 2016 8:51:32 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+août 22, 2016 8:53:38 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context []
+août 22, 2016 8:53:38 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+août 22, 2016 8:53:38 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+août 22, 2016 8:56:01 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context []
+août 22, 2016 8:56:01 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\apache-tomcat-7.0.37\conf\Catalina\localhost\ROOT.xml
+août 22, 2016 8:56:01 PM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+août 22, 2016 11:34:11 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+août 22, 2016 11:34:11 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8085"]
+août 22, 2016 11:34:11 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+août 22, 2016 11:34:12 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+août 22, 2016 11:34:12 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 22 20:51:22 EDT 2016]; parent: Root WebApplicationContext
+août 22, 2016 11:34:12 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Mon Aug 22 20:51:21 EDT 2016]; root of context hierarchy
+août 22, 2016 11:34:12 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Aug 22 20:51:27 EDT 2016]; parent: Root WebApplicationContext
+août 22, 2016 11:34:12 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Mon Aug 22 20:51:27 EDT 2016]; root of context hierarchy
+août 22, 2016 11:34:12 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8085"]
+août 22, 2016 11:34:12 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+août 22, 2016 11:34:12 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8085"]
+août 22, 2016 11:34:12 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

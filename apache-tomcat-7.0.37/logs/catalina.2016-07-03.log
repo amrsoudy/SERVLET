@@ -1,0 +1,20 @@
+juil. 03, 2016 10:14:16 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+juil. 03, 2016 10:14:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8085"]
+juil. 03, 2016 10:14:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+juil. 03, 2016 10:14:16 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+juil. 03, 2016 10:14:16 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 27 23:10:40 EDT 2016]; parent: Root WebApplicationContext
+juil. 03, 2016 10:14:16 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Mon Jun 27 23:10:40 EDT 2016]; root of context hierarchy
+juil. 03, 2016 10:14:17 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8085"]
+juil. 03, 2016 10:14:17 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8085"]
+juil. 03, 2016 10:14:17 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+juil. 03, 2016 10:14:17 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
