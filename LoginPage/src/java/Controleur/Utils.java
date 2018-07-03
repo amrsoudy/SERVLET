@@ -23,7 +23,7 @@ public class Utils {
         int x = 0;
         try {
             Class.forName("org.apache.derby.jdbc.ClientDriver");
-            Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/amr_db", "amr", "Secret");
+            Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/DBAmr", "amr", "Secret");
             String Query = "INSERT INTO USERS VALUES (?,?,?,?)";
             PreparedStatement pstm = conn.prepareStatement(Query);
             pstm.setString(1, _username);

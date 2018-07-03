@@ -7,6 +7,8 @@ package Controleur;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -19,6 +21,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -38,23 +41,37 @@ public class AdminSer extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException, ClassNotFoundException, SQLException {
         response.setContentType("text/html;charset=UTF-8");
-        System.out.println("in processRequest");
         try (PrintWriter out = response.getWriter()) {
 
             String _username = request.getParameter("UserName1");
             String _password = request.getParameter("PWD1");
             String _age = request.getParameter("age1");
             String _email = request.getParameter("email1");
-            
-           int x  = Utils.addUser(_username,_password,_age,_email);
-            
-            
-            request.setAttribute("x", x);
 
-            /* TODO output your page here. You may use following sample code. */
-            RequestDispatcher dispatch = request.getRequestDispatcher("Admin.jsp");
+            int x = Utils.addUser(_username, _password, _age, _email);
+
+            request.setAttribute("x", x);
+            String referer = new URI(request.getHeader("referer")).getPath();
+            // JOptionPane.showMessageDialog(null, referer);
+            String[] uriNames = referer.split("/");
+            String fromPageJsp = uriNames[uriNames.length - 1];
+            JOptionPane.showMessageDialog(null, fromPageJsp);
+            System.out.println(fromPageJsp);
+            String destination="";
+
+            if (fromPageJsp.equals("Admin.jsp")) {
+                destination = "Admin.jsp";
+
+            } else if (fromPageJsp.equals("AdminEN.jsp")) {
+                destination = "AdminEN.jsp";
+
+            }
+             RequestDispatcher dispatch = request.getRequestDispatcher(destination);
             dispatch.forward(request, response);
 
+            /* TODO output your page here. You may use following sample code. */
+        } catch (URISyntaxException ex) {
+            Logger.getLogger(AdminSer.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 

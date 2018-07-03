@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
-          <link rel="stylesheet" href="css/css1.css">
+        <link href="css/css1.css" rel="stylesheet" type="text/css"/>
         <title>Login</title>
     </head>
     <body>

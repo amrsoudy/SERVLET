@@ -16,10 +16,12 @@
     </head>
     <body>
     <center><h1>BienVenue   <%= request.getParameter("UserName") %> </h1></center>
-
+   <h2> Hi <%= session.getAttribute("_username")   %> </h2>
     <div class="container">
         <a href="index.jsp">Home</a>
         <a href="Admin.jsp">Admin</a>
+        <a href="Products.jsp">Products</a>
+
         
     </div>
     

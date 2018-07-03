@@ -15,17 +15,14 @@
         <title>WelcomeEn Page</title>
     </head>
     <body>
-        <%  String _username = request.getParameter("UserName");
-        
-        
-        
-        
-        %>
+        <%  String _username = request.getParameter("UserName");%>
     <center><h1>welcome  <%= _username  %> </h1></center>
+       <h2> Hi <%= session.getAttribute("_username")   %> </h2>
+
 
     <div class="container">
         <a href="index.jsp">Home</a>
-        <a href="Admin.jsp">Admin</a>
+        <a href="AdminEN.jsp">Admin</a>
         
     </div>
     
