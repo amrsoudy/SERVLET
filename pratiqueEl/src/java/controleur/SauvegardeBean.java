@@ -3,54 +3,38 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controleur;
+package controleur;
 
+import beans.produit;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import javax.websocket.Session;
 
 /**
  *
- * @author AMR
+ * @author 1795162
  */
-public class ProductsServ extends HttpServlet {
+public class SauvegardeBean extends HttpServlet {
 
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String destination = "";
         try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-// to  record  all what is  checked  in the check Boxs 
-            String[] x = request.getParameterValues("check");
-            ArrayList<Integer> ARChecked = new ArrayList<>();
-            for (String s : x) {
-
-                ARChecked.add(Integer.parseInt(s));
-            }
-
-            HttpSession session = request.getSession();
-            session.setAttribute("ARChecked", ARChecked);
-            destination = "selectedProducts.jsp";
-
-            RequestDispatcher dispatch = request.getRequestDispatcher(destination);
-            dispatch.forward(request, response);
+            
+            String desc = request.getParameter("desc");
+            int qty = Integer.parseInt(request.getParameter("qty"));
+            double prix = Double.parseDouble(request.getParameter("prix"));
+            
+            produit prod = new produit(desc,qty,prix);
+            request.setAttribute("prod", prod);
+            
+            RequestDispatcher disp = request.getRequestDispatcher("newJsp.jsp");
+            disp.forward(request, response);
+          
         }
     }
 

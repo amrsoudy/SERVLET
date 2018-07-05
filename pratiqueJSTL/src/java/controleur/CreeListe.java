@@ -3,24 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controleur;
+package controleur;
 
+import Beans.Info;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import javax.websocket.Session;
+
 
 /**
  *
- * @author AMR
+ * @author 1795162
  */
-public class ProductsServ extends HttpServlet {
+public class CreeListe extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -34,24 +36,27 @@ public class ProductsServ extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String destination = "";
-        try (PrintWriter out = response.getWriter()) {
+       
             /* TODO output your page here. You may use following sample code. */
-// to  record  all what is  checked  in the check Boxs 
-            String[] x = request.getParameterValues("check");
-            ArrayList<Integer> ARChecked = new ArrayList<>();
-            for (String s : x) {
-
-                ARChecked.add(Integer.parseInt(s));
-            }
-
+            List maList = new ArrayList();
+            
+            Info info = new Info("Tremblay", "Jean", 45000, 120000);
+            
+            maList.add(info);
+            
+            info = new Info("Dupuis", "Micheline", 100000, 300000);
+            maList.add(info);
+            
+            info = new Info("Roy", "Simon", 80000, 200000);
+            maList.add(info);
+            
             HttpSession session = request.getSession();
-            session.setAttribute("ARChecked", ARChecked);
-            destination = "selectedProducts.jsp";
-
-            RequestDispatcher dispatch = request.getRequestDispatcher(destination);
-            dispatch.forward(request, response);
-        }
+            session.setAttribute("maList", maList);
+            
+            RequestDispatcher disp = request.getRequestDispatcher("AfficherListAvecForEach.jsp");
+            disp.forward(request, response);
+            
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

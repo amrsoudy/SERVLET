@@ -51,6 +51,7 @@ public class AdminSer extends HttpServlet {
             int x = Utils.addUser(_username, _password, _age, _email);
 
             request.setAttribute("x", x);
+            //to know which page demande cette  servlet    --Amr
             String referer = new URI(request.getHeader("referer")).getPath();
             // JOptionPane.showMessageDialog(null, referer);
             String[] uriNames = referer.split("/");

@@ -5,22 +5,22 @@
  */
 package Controleur;
 
+import Bean.Product;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import javax.websocket.Session;
 
 /**
  *
- * @author AMR
+ * @author 1795162
  */
-public class ProductsServ extends HttpServlet {
+public class CreeListObjets extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -34,23 +34,25 @@ public class ProductsServ extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String destination = "";
         try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-// to  record  all what is  checked  in the check Boxs 
-            String[] x = request.getParameterValues("check");
-            ArrayList<Integer> ARChecked = new ArrayList<>();
-            for (String s : x) {
+            List list = new ArrayList();
+            Product product = new Product("cd", 20.55, "Images/pic1.jpg");
+            list.add(product);
+            product = new Product("flash", 30.55, "Images/pic2.jpg");
+            list.add(product);
+            product = new Product("laps", 1000.55, "Images/pic3.jpg");
+            list.add(product);
+            product = new Product("desktop", 2000.55, "Images/pic4.jpg");
+            list.add(product);
+            product = new Product("xxx", 255.55, "Images/pic5.jpg");
+            list.add(product);
+            product = new Product("hhh", 20.55, "Images/pic6.jpg");
+            list.add(product);
+            
+            request.setAttribute("list", list);
+            RequestDispatcher disp = request.getRequestDispatcher("AfficherLaListDObjet.jsp");
+            disp.forward(request, response);
 
-                ARChecked.add(Integer.parseInt(s));
-            }
-
-            HttpSession session = request.getSession();
-            session.setAttribute("ARChecked", ARChecked);
-            destination = "selectedProducts.jsp";
-
-            RequestDispatcher dispatch = request.getRequestDispatcher(destination);
-            dispatch.forward(request, response);
         }
     }
 
