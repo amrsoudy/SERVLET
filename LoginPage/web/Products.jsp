@@ -11,7 +11,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">        <title>JSP Page</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> 
         <link href="css/css1.css" rel="stylesheet" type="text/css"/>
 
     </head>
@@ -32,26 +32,28 @@
             <div  class="container">
                 <left>
                     <table border="2" width="10" cellspacing="10">
-                        <thead>
+                        <%
+                            int count = 0;
+                            for (Product p : (ArrayList<Product>) application.getAttribute("ar")) {
+                                count++;
+                                if (count == 0) {
+                        %>
+                        <tr>
+                            <%}
+                            %>
+                            <td><img src="<%= p.getImg()%>" width="300" height="300" alt="pic1"/><br><%= p.getName()%> <br> Price : <%= p.getPrice()%> <input type="checkbox" onclick="increase(this)" name="check" value="0" /></td>
+
+                            <% if (count == 3) {
+                                    count = 0;
+                            %>
+                        </tr>
+
+                        <%}
+                            }
+
+                        %>
 
 
-                            <%
-                                for (Product p : (ArrayList<Product>) application.getAttribute("ar")) {
-
-                            %>  
-                            <tr>
-                                <td><img src="<%= p.getImg()%>" width="300" height="300" alt="pic1"/><br><%= p.getName()%> <br> Price : <%= p.getPrice()%> <input type="checkbox" onclick="increase(this)" name="check" value="0" /></td>
-
-                            </tr>
-
-
-                            <%};%>
-
-
-
-
-
-                        </thead>
 
                     </table>
                 </left>

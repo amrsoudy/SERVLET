@@ -66,6 +66,7 @@ public class AdminSer extends HttpServlet {
                 destination = "AdminEN.jsp";
 
             }
+          
              RequestDispatcher dispatch = request.getRequestDispatcher(destination);
             dispatch.forward(request, response);
 
