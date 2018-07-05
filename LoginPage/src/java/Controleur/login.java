@@ -19,12 +19,12 @@ public class login extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        Product product1 = new Product("product1", 20.5);
-        Product product2 = new Product("product2", 30.5);
-        Product product3 = new Product("product3", 40.5);
-        Product product4 = new Product("product4", 50.5);
-        Product product5 = new Product("product5", 60.5);
-        Product product6 = new Product("product6", 70.5);
+        Product product1 = new Product("product1", 20.5,"Images/pic1.jpg");
+        Product product2 = new Product("product2", 30.5,"Images/pic2.jpg");
+        Product product3 = new Product("product3", 40.5,"Images/pic3.jpg");
+        Product product4 = new Product("product4", 50.5,"Images/pic4.jpg");
+        Product product5 = new Product("product5", 60.5,"Images/pic5.jpg");
+        Product product6 = new Product("product6", 70.5,"Images/pic6.jpg");
 
         ArrayList<Product> ar = new ArrayList();
         ar.add(product1);

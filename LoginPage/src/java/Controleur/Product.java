@@ -13,11 +13,25 @@ public class Product {
     
     String name ;
     double Price ;
+    String Img ;
 
-    public Product(String name, double Price) {
+    public Product(String name, double Price, String Img) {
         this.name = name;
         this.Price = Price;
+        this.Img = Img;
     }
+    
+    
+
+    public String getImg() {
+        return Img;
+    }
+
+    public void setImg(String Img) {
+        this.Img = Img;
+    }
+    
+
     
     
     

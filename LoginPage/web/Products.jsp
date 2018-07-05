@@ -4,6 +4,7 @@
     Author     : AMR
 --%>
 
+<%@page import="java.util.ArrayList"%>
 <%@page import="Controleur.Product"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -15,45 +16,51 @@
 
     </head>
     <body>
-
-        <div class="row">
-            <div class="col-xs-8 col-sm-8 col-lg-8"> <h5> Welcome <%= session.getAttribute("_username")%>  And We Are So Happy to choose from our Products </h6></div>
-            <div class="col-xs-2 col-sm-2 col-lg-2"></div>
-            <div class="col-xs-2 col-sm-2 col-lg-2"><input type="submit" class="bascet-button" value="" /></div>
-        </div>
-       
         <form action="ProductsServ">
-
-            <div  class="container">
-                <div class="container">
-                    <center>
-                        <table border="2" width="10" cellspacing="10">
-                            <thead>
-                                <tr>
-                                    <% Product product1 = new Product("product1",20.55);%>
-                                    
-                                    <th><img src="Images/pic1.jpg" width="200" height="200" alt="pic1"/><br> Price : 20.55 $ <input type="checkbox" name="check" value="0" /></th>
-                                    <th><img src="Images/pic2.jpg" width="200" height="200" alt="pic2"/><br> Price : 30.55 $ <input type="checkbox" name="check" value="1" /></th>
-                                    <th><img src="Images/pic3.jpg" width="200" height="200" alt="pic3"/><br> Price : 40.55 $ <input type="checkbox" name="check" value="2" /> </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><img src="Images/pic4.jpg" width="200" height="200" alt="pic4"/><br> Price : 50.55 $ <input type="checkbox" name="check" value="3" /></td>
-                                    <td><img src="Images/pic5.jpg" width="200" height="200" alt="pic5"/><br> Price : 60.55 $ <input type="checkbox" name="check" value="4" /></td>
-                                    <td><img src="Images/pic6.jpg" width="200" height="200" alt="pic6"/><br> Price : 70.55 $ <input type="checkbox" name="check" value="5" /></td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-                    </center>
-                    <center>
-                        <input class="btn btn-danger" type="submit" value="Go To Your Bascet" />
-                    </center>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-lg-8"> <h5> Welcome <%= session.getAttribute("_username")%>  And We Are So Happy to choose from our Products </h5></div>
+                    <div class="col-xs-4 col-sm-4 col-lg-4"><input type="submit" class="btn btn-danger" id="bascet" value="" /></div>
                 </div>
-            </div>            
+            </div>
 
         </form>
 
+
+        <form action="ProductsServ">
+
+            <div  class="container">
+                <left>
+                    <table border="2" width="10" cellspacing="10">
+                        <thead>
+
+
+                            <%
+                                for (Product p : (ArrayList<Product>) application.getAttribute("ar")) {
+
+                            %>  
+                            <tr>
+                                <td><img src="<%= p.getImg()%>" width="300" height="300" alt="pic1"/><br><%= p.getName()%> <br> Price : <%= p.getPrice()%> <input type="checkbox" onclick="increase(this)" name="check" value="0" /></td>
+
+                            </tr>
+
+
+                            <%};%>
+
+
+
+
+
+                        </thead>
+
+                    </table>
+                </left>
+                <center>
+                    <input class="btn btn-danger"  type="submit" value="Go To Your Bascet" />
+                </center>
+            </div>            
+
+        </form>
+        <script src="js/script1.js" type="text/javascript"></script>
     </body>
 </html>
