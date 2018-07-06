@@ -31,13 +31,15 @@ public class TraitmentBeans extends HttpServlet {
 
             produit pr = new produit("usb Key", 15, 2.75);
             request.setAttribute("pr", pr);
-            
-            if (request.getParameter("source").equals("2")) {
-                Destination = "modifyBean.jsp";
-            } else {
-                Destination = "affichageBean.jsp";
+            String source = request.getParameter("source");
 
-            }
+          if (request.getParameterMap().containsKey("source")) {
+              if(source.equals("2")){
+              Destination = "modifyBean.jsp";
+              }
+        }else{
+              Destination = "affichageBean.jsp";
+          }
 
             RequestDispatcher disp = request.getRequestDispatcher(Destination);
             disp.forward(request, response);
