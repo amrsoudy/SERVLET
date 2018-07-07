@@ -2,16 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/1795162/Documents/NetBeansProjects/pratiqueEl/web/index.html</file>
-            <file>file:/C:/Users/1795162/Documents/NetBeansProjects/pratiqueEl/web/modifyBean.jsp</file>
-            <file>file:/C:/Users/1795162/Documents/NetBeansProjects/pratiqueEl/src/java/controleur/SauvegardeBean.java</file>
-            <file>file:/C:/Users/1795162/Documents/NetBeansProjects/pratiqueEl/web/afficherSomme.jsp</file>
-            <file>file:/C:/Users/1795162/Documents/NetBeansProjects/pratiqueEl/src/java/controleur/TraitmentBeans.java</file>
-            <file>file:/C:/Users/1795162/Documents/NetBeansProjects/pratiqueEl/web/newJsp.jsp</file>
-            <file>file:/C:/Users/1795162/Documents/NetBeansProjects/pratiqueEl/web/expressionsSimple.jsp</file>
-            <file>file:/C:/Users/1795162/Documents/NetBeansProjects/pratiqueEl/src/java/beans/produit.java</file>
-            <file>file:/C:/Users/1795162/Documents/NetBeansProjects/pratiqueEl/web/affichageBean.jsp</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

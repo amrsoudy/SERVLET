@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controleur;
+package Beans;
 
 /**
  *
@@ -11,9 +11,9 @@ package Controleur;
  */
 public class Product {
     
-    String name ;
-    double Price ;
-    String Img ;
+   private String name ;
+   private double Price ;
+    private String Img ;
 
     public Product(String name, double Price, String Img) {
         this.name = name;

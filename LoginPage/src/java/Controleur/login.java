@@ -1,5 +1,6 @@
 package Controleur;
 
+import Beans.Product;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -20,7 +21,7 @@ public class login extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
 
-
+//pout remplier le tableau de  products 
         ArrayList<Product> ar = new ArrayList();
         ar = Utils.RemplierTableaudeProduit();
 
@@ -28,6 +29,7 @@ public class login extends HttpServlet {
         ServletContext app = getServletConfig().getServletContext();
 
         app.setAttribute("ar", ar);
+      
 
         try (PrintWriter out = response.getWriter()) {
             String _username = request.getParameter("UserName");
@@ -50,6 +52,7 @@ public class login extends HttpServlet {
 
                         HttpSession session = request.getSession();
                         session.setAttribute("_username", _username);
+                       
 
                         if (_l != null && _l.equals("Fr")) {
 

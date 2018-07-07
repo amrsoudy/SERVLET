@@ -33,6 +33,8 @@
                         <td>${prod.nom}</td>
                         <td>${prod.prix}</td>
                         <td><img src="${prod.photo}"/></td>
+                        
+                        
                             <c:set var="count" value = "${count+1}"/>
                     </tr>
                 </center>
