@@ -45,9 +45,9 @@
                                 </c:if>                         
 
                                 <td>
-                                    <img src="${prod.getImg()}" width="300" height="300" alt="pic1"/>
-                                    <br>${prod.getName()}
-                                    <br> Price : ${prod.getPrice()}
+                                    <img src="${prod.img}" width="300" height="300" alt="pic1"/>
+                                    <br>${prod.name}
+                                    <br> Price : ${prod.price}
                                     <input type="checkbox" onclick="increase(this)" name="check" value="${count2}" />
 
                                     <c:set var="count2" value = "${count2+1}"/>
