@@ -85,6 +85,7 @@ public class AutoCompleteServlet extends HttpServlet {
                 
                 response.setHeader("Cache-Control", "no-cache");
                 
+                //envoyer a  ajax  le  text Xml
                 response.getWriter().write("<composers>" + sb.toString() + "</composers>");
             } else {
                 //nothing to show
