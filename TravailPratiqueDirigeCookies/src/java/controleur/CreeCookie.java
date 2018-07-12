@@ -35,7 +35,7 @@ public class CreeCookie extends HttpServlet {
     
          String choix ="" ;
         choix=request.getParameter("couleur");
-        Cookie couleur = new Cookie("couleur",choix);
+        Cookie couleur = new Cookie("choixcouleur",choix);
             RequestDispatcher disp =getServletContext().getRequestDispatcher("/potail.jsp");
             disp.forward(request, response);
         

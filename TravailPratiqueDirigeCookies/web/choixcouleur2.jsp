@@ -25,7 +25,8 @@
                     </tr>
                     <tr>
                         <td>couleur</td>
-                        <td><input type="radio" name="couleur" value="jaune" checked="checked" /><input type="radio" name="couleur" value="Rouge" /></td>
+                        <td><input type="radio" name="couleur" value="Blue" checked="checked" />
+                            <input type="radio" name="couleur" value="Red" /></td>
                     </tr>
                     <tr>
                 

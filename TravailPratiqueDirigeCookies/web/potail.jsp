@@ -11,9 +11,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body bgcolor="${choixcouleur}">
+    <body bgcolor="<%= request.getAttribute("choixcouleur")%>">
         Bienvenu vous avez choisi le 
-        ${choixcouleur}
+        <%= request.getAttribute("choixcouleur")%>
         comme couleur de fond 
     </body>
 </html>
