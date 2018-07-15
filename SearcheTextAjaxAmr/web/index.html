@@ -11,24 +11,25 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <script src="script.js" type="text/javascript"></script>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
         
     </head>
     <body onload="init()">
-        <form name="maForm" action="autofillform">
-            <table border="1">
+        <form name="autofillform" action="autocomplete">
+            <table border="0" cellpadding="5">
 
                 <tbody>
                     <tr>
+                        <td><strong>Composer Name </strong></td>
                         <td>
-                            <input type="text" name="txt1" onkeyup="doComplete()" />
+                            <input type="text" size="40" id="complete-field"  onkeyup="doCompletion()" >
                         </td>
                     </tr>
                     <tr>
                         <td id="auto-row" colspan="2">
-                               <table id="complete-table" class="popupBox" > 
-                               </table>
-
+                            <table id="complete-table" class="popupBox" /> </table>
+                    
                         </td>
                     </tr>
                 </tbody>
@@ -36,7 +37,6 @@ and open the template in the editor.
 
         </form>
 
-            <script src="script.js" type="text/javascript"></script>
 
     </body>
 </html>

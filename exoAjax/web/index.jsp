@@ -17,7 +17,7 @@
       <table border="2">
          <tr>
              <td colspan="2">TempCel
-               <input name="vtc" onkeyup="calculer()"  /></td>
+               <input name="vtc" onclick="calculer()"  /></td>
          </tr>
          <tr>
            <td colspan="2"> <input type="button"  value="Convertir une unité"  onclick="calculer()"/></td>
