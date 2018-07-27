@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controleur;
+package Beans;
 
 /**
  *
@@ -11,24 +11,24 @@ package Controleur;
  */
 public class Product {
     
-    String name ;
-    double Price ;
-    String Img ;
+   private String name ;
+   private double price ;
+    private String img ;
 
     public Product(String name, double Price, String Img) {
         this.name = name;
-        this.Price = Price;
-        this.Img = Img;
+        this.price = Price;
+        this.img = Img;
     }
     
     
 
     public String getImg() {
-        return Img;
+        return img;
     }
 
     public void setImg(String Img) {
-        this.Img = Img;
+        this.img = Img;
     }
     
 
@@ -45,16 +45,16 @@ public class Product {
     }
 
     public double getPrice() {
-        return Price;
+        return price;
     }
 
     public void setPrice(double Price) {
-        this.Price = Price;
+        this.price = Price;
     }
 
     @Override
     public String toString() {
-        return "Product{" + "name=" + name + ", Price=" + Price + ", Img=" + Img + '}';
+        return "Product{" + "name=" + name + ", Price=" + price + ", Img=" + img + '}';
     }
 
   

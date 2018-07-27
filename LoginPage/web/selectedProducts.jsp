@@ -4,9 +4,12 @@
     Author     : AMR
 --%>
 
-<%@page import="Controleur.Product"%>
+<%@page import="Beans.Product"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,19 +21,6 @@
         <form action="pay" method="POST">
 
             <div class="container">
-
-
-                <%
-                    double sum = 0;
-                    double sum5Tax = 0;
-                    double sumTotal = 0;
-                    ArrayList<Product> arr = (ArrayList<Product>) application.getAttribute("ar");
-
-                    for (Integer i : (ArrayList<Integer>) session.getAttribute("ARChecked")) {
-                        sum += arr.get(i).getPrice();
-                        sum5Tax += arr.get(i).getPrice() * 0.05;
-
-                %>
                 <table class="table">
                     <thead>
                         <tr>
@@ -39,23 +29,31 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td class="bg-success"><%= arr.get(i).getName()%></td>
-                            <td class="bg-warning"><%= arr.get(i).getPrice()%></td>
-                        </tr>
+
+                        <c:set var="sum" value="0"/>
+                        <c:set var="sum5Tax" value="0"/>
+                        <c:set var="sumTotal" value="0"/>
+
+                        <c:forEach var="indexCheckedItems" items="${ARChecked}">
+                            <c:set var="sum" value="${sum + ar[indexCheckedItems].getPrice() }"/>
+                            <tr>
+                                <td class="bg-success">${ar[indexCheckedItems].getName()}</td>
+                                <td class="bg-warning">${ar[indexCheckedItems].getPrice()}</td>
+                            </tr>
+
+                        </c:forEach> 
+                        <c:set var="sum5Tax" value="${sum *  0.05 }"/>
+
                     </tbody>
                 </table>
+                <c:set var="sumTotal" value="${sum + sum5Tax}"/>
 
-                <%}
-                    sumTotal = sum + sum5Tax;
-                %>
-                <left><p>Total before Tax : <%= sum%> </p></left>
-                <left><p>Tax: <%= sum5Tax%> </p></left>
-                <left><p>Total after Tax  <%= sumTotal%> </p></left>
+                <left><p>Total before Tax : ${sum} </p></left>
+                <left><p>Tax: ${sum5Tax} </p></left>
+                <left><p>Total after Tax  ${sumTotal} </p></left>
                 <input class="btn-danger" type="submit" value="Confirm To Go Pay" />
 
 
-                <%%>
             </div>
         </form>
     </body>

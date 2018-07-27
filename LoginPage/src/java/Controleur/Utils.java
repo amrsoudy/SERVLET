@@ -5,6 +5,7 @@
  */
 package Controleur;
 
+import Beans.Product;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

@@ -4,9 +4,9 @@
     Author     : AMR
 --%>
 
-<%@page import="java.util.ArrayList"%>
-<%@page import="Controleur.Product"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,7 +19,7 @@
         <form action="ProductsServ">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-8 col-sm-8 col-lg-8"> <h5> Welcome <%= session.getAttribute("_username")%>  And We Are So Happy to choose from our Products </h5></div>
+                    <div class="col-xs-8 col-sm-8 col-lg-8"> <h5> Welcome ${_username}  And We Are So Happy to choose from our Products </h5></div>
                     <div class="col-xs-4 col-sm-4 col-lg-4"><input type="submit" class="btn btn-danger" id="bascet" value="" /></div>
                 </div>
             </div>
@@ -30,33 +30,42 @@
         <form action="ProductsServ">
 
             <div  class="container">
-                <left>
-                    <table border="2" width="10" cellspacing="10">
-                        <%
-                            int count = 0;
-                            for (Product p : (ArrayList<Product>) application.getAttribute("ar")) {
-                                count++;
-                                if (count == 0) {
-                        %>
-                        <tr>
-                            <%}
-                            %>
-                            <td><img src="<%= p.getImg()%>" width="300" height="300" alt="pic1"/><br><%= p.getName()%> <br> Price : <%= p.getPrice()%> <input type="checkbox" onclick="increase(this)" name="check" value="0" /></td>
+                <table border="1">
 
-                            <% if (count == 3) {
-                                    count = 0;
-                            %>
-                        </tr>
+                    <tbody>
+                        <c:set var="count" value="0"/>
+                        <c:set var="count2" value = "0"/>
 
-                        <%}
-                            }
+                        <c:forEach var="prod" items="${ar}">
+                            <c:set var="count" value = "${count+1}"/>
 
-                        %>
+                            <c:if test = "${count == 0}">
 
+                                <tr>
+                                </c:if>                         
+
+                                <td>
+                                    <img src="${prod.img}" width="300" height="300" alt="pic1"/>
+                                    <br>${prod.name}
+                                    <br> Price : ${prod.price}
+                                    <input type="checkbox" onclick="increase(this)" name="check" value="${count2}" />
+
+                                    <c:set var="count2" value = "${count2+1}"/>
 
 
-                    </table>
-                </left>
+                                </td>
+                                <c:if test = "${count == 3}">
+                                    <c:set var="count" value = "0"/>
+
+
+                                </tr> 
+                            </c:if>
+
+
+                        </c:forEach>
+                    </tbody>
+                </table>
+
                 <center>
                     <input class="btn btn-danger"  type="submit" value="Go To Your Bascet" />
                 </center>

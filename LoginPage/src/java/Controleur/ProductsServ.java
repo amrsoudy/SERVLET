@@ -37,7 +37,7 @@ public class ProductsServ extends HttpServlet {
         String destination = "";
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-
+// to  record  all what is  checked  in the check Boxs 
             String[] x = request.getParameterValues("check");
             ArrayList<Integer> ARChecked = new ArrayList<>();
             for (String s : x) {
@@ -47,7 +47,7 @@ public class ProductsServ extends HttpServlet {
 
             HttpSession session = request.getSession();
             session.setAttribute("ARChecked", ARChecked);
-            destination ="selectedProducts.jsp";
+            destination = "selectedProducts.jsp";
 
             RequestDispatcher dispatch = request.getRequestDispatcher(destination);
             dispatch.forward(request, response);

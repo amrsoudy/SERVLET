@@ -1,5 +1,6 @@
 package Controleur;
 
+import Beans.Product;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -19,26 +20,16 @@ public class login extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-//        Product product1 = new Product("product1", 20.5, "Images/pic1.jpg");
-//        Product product2 = new Product("product2", 30.5, "Images/pic2.jpg");
-//        Product product3 = new Product("product3", 40.5, "Images/pic3.jpg");
-//        Product product4 = new Product("product4", 50.5, "Images/pic4.jpg");
-//        Product product5 = new Product("product5", 60.5, "Images/pic5.jpg");
-//        Product product6 = new Product("product6", 70.5, "Images/pic6.jpg");
 
+//pout remplier le tableau de  products 
         ArrayList<Product> ar = new ArrayList();
         ar = Utils.RemplierTableaudeProduit();
 
-//        ar.add(product1);
-//        ar.add(product2);
-//        ar.add(product3);
-//        ar.add(product4);
-//        ar.add(product5);
-//        ar.add(product6);
 
         ServletContext app = getServletConfig().getServletContext();
 
         app.setAttribute("ar", ar);
+      
 
         try (PrintWriter out = response.getWriter()) {
             String _username = request.getParameter("UserName");
@@ -61,6 +52,7 @@ public class login extends HttpServlet {
 
                         HttpSession session = request.getSession();
                         session.setAttribute("_username", _username);
+                       
 
                         if (_l != null && _l.equals("Fr")) {
 
