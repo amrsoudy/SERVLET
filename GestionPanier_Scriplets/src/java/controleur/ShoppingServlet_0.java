@@ -104,10 +104,9 @@ public class ShoppingServlet_0 extends HttpServlet {
 
           //si match est à false, donc item non déjà dans le panier,
           //on va devoir l'ajouter
-          if (!match){
+          if (!match)
               //on ajoute l'item au panier
             buylist.addElement(aCD);
-          }
         }
       }
 
@@ -143,11 +142,10 @@ public class ShoppingServlet_0 extends HttpServlet {
 
       //on redirige la requête vers la page de Checkout
       String url="/Checkout.jsp";
-     // ServletContext sc = getServletContext();
-      RequestDispatcher rd = request.getRequestDispatcher(url);
+      ServletContext sc = getServletContext();
+      RequestDispatcher rd = sc.getRequestDispatcher(url);
       rd.forward(request,response);
     }
-    
 
     }
 

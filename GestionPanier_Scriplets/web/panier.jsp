@@ -4,13 +4,11 @@
     Author     : Toshiba
 --%>
 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page session="true" import="java.util.*, modele.CD" %>
 <%
  Vector buylist = (Vector) session.getAttribute("shoppingcart");
  if (buylist != null && (buylist.size() > 0)) {
 %>
-
 <center>
 <table border="0" cellpadding="0" width="100%" bgcolor="#FFFFFF">
  <tr>
@@ -32,7 +30,9 @@
   <td><b><%= anOrder.getPrice() %></b></td>
   <td><b><%= anOrder.getQuantity() %></b></td>
   <td>
-   <form name="deleteForm" action="ShoppingServlet_0"    method="POST">
+   <form name="deleteForm"
+    action="ShoppingServlet_0"
+    method="POST">
    <input type="submit" value="Delete">
    
    <input type="hidden" name= "delindex" value='<%= index %>'>
@@ -44,7 +44,9 @@
     <% } %>
   </table>
   <p>
-  <form name="checkoutForm"action="ShoppingServlet_0"    method="POST">
+  <form name="checkoutForm"
+    action="ShoppingServlet_0"
+    method="POST">
     <input type="hidden" name="action" value="CHECKOUT">
     <input type="submit" name="Checkout" value="Checkout">
   </form>

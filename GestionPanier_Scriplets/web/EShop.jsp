@@ -21,7 +21,7 @@
  Ceci peut être remplacé par du code qui recherche les données dans une BDD et
  affiche les produits -->
  <select name=CD>
-      <option>Yuan | The Guo Brothers | China | 4.9555559</option>
+      <option>Yuan | The Guo Brothers | China | 4.95</option>
       <option>Drums of Passion | Babatunde Olatunji | Nigeria | 6.95</option>
       <option>Kaira | Tounami Diabate| Mali | 6.95</option>
       <option>The Lion is Loose | Eliades Ochoa | Cuba | 3.95</option>

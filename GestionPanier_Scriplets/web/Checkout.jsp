@@ -4,8 +4,7 @@
     Author     : Toshiba
 --%>
 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<%@ page session="true" import="java.util.*,modele.CD" %>
 <html>
 <head>
 <title>Checkout Musique sans frontières</title>
@@ -25,28 +24,28 @@
  <td><b>QUANTITY</b></td>
  <td></td>
  </tr>
-
- <c:set var="buylist" value="${amount}"/>;
- <c:forEach var="anOrder" items="${shoppingcart}">
- 
-  <tr>
- <td><b>${anOrder.getAlbum()}</b></td>
- <td><b>${anOrder.getArtist()}</b></td>
- <td><b>${anOrder.getCountry()}</b></td>
- <td><b>${anOrder.getPrice()}</b></td>
- <td><b>${anOrder.getQuantity()}</b></td>
- </tr>
- </c:forEach>
-
+ <%
+  Vector buylist = (Vector) session.getAttribute("shoppingcart");
+  String amount = (String) request.getAttribute("amount");
+  for (int i=0; i < buylist.size();i++) {
+   CD anOrder = (CD) buylist.elementAt(i);
+ %>
  <tr>
-
-  ${session.invalidate()};
-
+ <td><b><%= anOrder.getAlbum() %></b></td>
+ <td><b><%= anOrder.getArtist() %></b></td>
+ <td><b><%= anOrder.getCountry() %></b></td>
+ <td><b><%= anOrder.getPrice() %></b></td>
+ <td><b><%= anOrder.getQuantity() %></b></td>
+ </tr>
+ <%
+  }
+  session.invalidate();
+ %>
  <tr>
  <td>     </td>
  <td>     </td>
  <td><b>TOTAL</b></td>
- <td><b>${amount}</b></td>
+ <td><b>$<%= amount %></b></td>
  <td>     </td>
  </tr>
  </table>

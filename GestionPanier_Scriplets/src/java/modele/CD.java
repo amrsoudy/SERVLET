@@ -16,8 +16,6 @@ public class CD {
   String country;
   float price;
   int quantity;
-  
-  
   public CD() {
       super();
     album="";

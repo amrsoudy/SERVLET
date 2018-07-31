@@ -77,12 +77,12 @@ public class Test extends HttpServlet {
                    table.addCell(" " + a.getQuantity());
                 }
                document.add(table);
-                Paragraph paraPrixTotal = new Paragraph("Prix total HT : " + panier.getPrixTotalHT() + " Euros");
+                /*Paragraph paraPrixTotal = new Paragraph("Prix total HT : " + panier.getPrixTotalHT() + " Euros");
                 paraPrixTotal.setSpacingBefore(20f);
                 document.add(paraPrixTotal);
                 Paragraph paraPrixTotalTTC = new Paragraph("Prix total TTC : " + panier.getPrixTotalTTC() + " Euros");
                 paraPrixTotalTTC.setSpacingBefore(20f);
-                document.add(paraPrixTotalTTC);
+                document.add(paraPrixTotalTTC);*/
             }
             document.close();
         } catch (Exception e) {
