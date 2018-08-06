@@ -8,12 +8,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      
+        <title>Music Without Borders</title>
     </head>
-     <body bgcolor="#33EEFF">
+    <body bgcolor="#33EEFF">
+
+        <h1> Musique sans frontières </h1>
+
+        <hr><p>
 
         <form action="main_servelet" method="POST">
+             <b>CD:</b>
             <div class="container">  
                 <select name= "cd">
                     <option>Yuan | The Guo Brothers | China | 4.95</option>

@@ -3,45 +3,34 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controleur;
+package controleur;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import javax.websocket.Session;
 
 /**
  *
  * @author AMR
  */
-public class ProductsServ extends HttpServlet {
+public class convertTemp extends HttpServlet {
 
-  
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String destination = "";
-        try (PrintWriter out = response.getWriter()) {
-          // to  record  all what is  checked  in the check Boxs 
-            String[] x = request.getParameterValues("check");
-            ArrayList<Integer> ARChecked = new ArrayList<>();
-            for (String s : x) {
-
-                ARChecked.add(Integer.parseInt(s));
-            }
-
-            HttpSession session = request.getSession();
-            session.setAttribute("ARChecked", ARChecked);
-            destination = "selectedProducts.jsp";
-
-            RequestDispatcher dispatch = request.getRequestDispatcher(destination);
-            dispatch.forward(request, response);
+        PrintWriter out = response.getWriter();
+        double vtc = Double.parseDouble(request.getParameter("vtc"))*2.5;
+        
+        try{
+        
+        out.print(Double.toString(vtc));
+        }finally{
+        out.close();
+        
+        
         }
     }
 
