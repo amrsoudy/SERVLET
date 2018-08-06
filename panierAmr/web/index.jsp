@@ -8,16 +8,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-<<<<<<< HEAD
+
  <title>Music Without Borders</title>
 </head>
 <body bgcolor="#33EEFF">
 
-    <h1> Musique sans frontières </h1>
 
- <hr><p>
 
-=======
         <title>Music Without Borders</title>
     </head>
     <body bgcolor="#33EEFF">
@@ -25,7 +22,6 @@
         <h1> Musique sans frontières </h1>
 
         <hr><p>
->>>>>>> 175a39675719386f84c3bbb791e3a1ee8b685a44
 
         <form action="main_servelet" method="POST">
              <b>CD:</b>
