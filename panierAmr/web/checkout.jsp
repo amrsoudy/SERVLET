@@ -10,61 +10,62 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+
     </head>
-    <body >
+    <body bgcolor="#33EEFF">
         <h1>Checkout Musique sans frontières </h1>
-        
+
         <c:if test="${shopingcarte.size() gt 0}">
 
-        <centre>      
+        <center>
             <table border="0" cellpadding="0" width="100%" bgcolor="#FFFFFF">
-                <thead>
-                    <tr>
-                        <th>Alboum </th>
-                        <th> Name</th>
-                        <th>Country </th>
-                        <th> Price</th>
-                        <th> quantity</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <c:set var="i" value="0"/>
-                    <c:forEach var="item" items="${shopingcarte}">
 
-                        <tr>
+                <tr>
+                    <th>Alboum </th>
+                    <th> Name</th>
+                    <th>Country </th>
+                    <th> Price</th>
+                    <th> quantity</th>
+                </tr>
+
+
+                <c:set var="i" value="0"/>
+                
+
+                    <c:forEach var="item" items="${shopingcarte}">
+                        <tr align="center">
 
                             <td>${item.album}</td>
                             <td>${item.artist}</td>
                             <td>${item.country}</td>
                             <td>${item.price}</td>
                             <td>${item.quantity}</td>
-                           
+
                         </tr>  
-                        
 
                     </c:forEach>
-                        <tr>
-                            ${session.invalidate()}
-                            <td></td>
-                            <td></td>
-                            <td>total</td>
-                            <td>${amount}</td>
-                            
-                            
-                            
-                        </tr>
-                </tbody>
-                
-            </table>
-      
-  
-        </centre>
-         
-      <p>  <a href="index.jsp"> contienue a magasain </a></p>
 
+                <tr align="center">
+                    ${session.invalidate()}
+                    <td></td>
+                    <td></td>
+                    <td>total</td>
+                    <td>${amount}</td>
+
+
+
+                </tr>
+
+
+            </table>
+
+
+
+
+            <p>  <a href="index.jsp"> contienue a magasain </a></p>
+        </center>
     </c:if>
 
-    
-    </body>
+
+</body>
 </html>

@@ -1,48 +1,75 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Controleur;
+
+package controleur;
+
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import javax.servlet.RequestDispatcher;
+import java.util.HashMap;
+import java.util.Iterator;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import javax.websocket.Session;
+import modele.Composer;
+import modele.ComposerData;
 
-/**
- *
- * @author AMR
- */
-public class ProductsServ extends HttpServlet {
+public class AutoComplete extends HttpServlet {
+    private ComposerData compData = new ComposerData();
+    private HashMap composers = compData.getComposers();
+    private ServletContext context ;
+   
+    
+    @Override
+    public void init(ServletConfig config){
+    this.context = config.getServletContext();
+    
+    
+    }
 
-  
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String destination = "";
-        try (PrintWriter out = response.getWriter()) {
-          // to  record  all what is  checked  in the check Boxs 
-            String[] x = request.getParameterValues("check");
-            ArrayList<Integer> ARChecked = new ArrayList<>();
-            for (String s : x) {
-
-                ARChecked.add(Integer.parseInt(s));
+        
+        String action = request.getParameter("action");
+        String targetId =request.getParameter("id");
+        StringBuffer sb = new StringBuffer();
+        
+        if(targetId != null){
+        targetId = targetId.trim().toLowerCase();
+        
+        }else{
+            context.getRequestDispatcher("/error.jsp").forward(request, response);
+            
             }
-
-            HttpSession session = request.getSession();
-            session.setAttribute("ARChecked", ARChecked);
-            destination = "selectedProducts.jsp";
-
-            RequestDispatcher dispatch = request.getRequestDispatcher(destination);
-            dispatch.forward(request, response);
+        if(action.equals("complete")){
+        
+        if(!targetId.equals("")){
+        
+        Iterator it = composers.keySet().iterator();
+        
+        while(it.hasNext()){
+        String id = (String)it.next();
+        Composer composer = (Composer)composers.get(id);
+        
+        
+        if (composer.getFirstName().toLowerCase().startsWith(targetId)||composer.getLastName().toLowerCase().startsWith(targetId)
+                || composer.getFirstName().toLowerCase().concat(" ").concat(composer.getLastName().toLowerCase()).startsWith(targetId))
+                {
+        
+        sb.append(<>)
+        
         }
+        
+        }
+        
+        
+        
+        }
+        
+        }
+      
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

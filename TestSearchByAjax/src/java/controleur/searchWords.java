@@ -3,46 +3,64 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controleur;
+package controleur;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import javax.websocket.Session;
+import modele.Writer;
 
-/**
- *
- * @author AMR
- */
-public class ProductsServ extends HttpServlet {
+public class searchWords extends HttpServlet {
 
-  
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String destination = "";
-        try (PrintWriter out = response.getWriter()) {
-          // to  record  all what is  checked  in the check Boxs 
-            String[] x = request.getParameterValues("check");
-            ArrayList<Integer> ARChecked = new ArrayList<>();
-            for (String s : x) {
 
-                ARChecked.add(Integer.parseInt(s));
-            }
+        ArrayList<Writer> Writers = new ArrayList();
+        Writer w1 = new Writer(1, "Amr");
+        Writer w2 = new Writer(2, "Ahmed");
+        Writer w3 = new Writer(3, "Abas");
+        Writer w4 = new Writer(4, "Mazen");
+        Writer w5 = new Writer(5, "Maradona");
+        Writer w6 = new Writer(6, "Maysa");
+        Writer w7 = new Writer(7, "Joodi");
+        Writer w8 = new Writer(8, "juel");
+        Writer w9 = new Writer(9, "Fares");
+        Writer w10 = new Writer(10, "Faroo");
+        Writer w11 = new Writer(11, "Marwa");
+        Writer w12 = new Writer(12, "Madona");
+        
+        Writers.add(w1);
+        Writers.add(w2);
+        Writers.add(w3);
+        Writers.add(w4);
+        Writers.add(w5);
+        Writers.add(w6);
+        Writers.add(w7);
+        Writers.add(w8);
+        Writers.add(w9);
+        Writers.add(w10);
+        Writers.add(w11);
+        Writers.add(w12);
 
-            HttpSession session = request.getSession();
-            session.setAttribute("ARChecked", ARChecked);
-            destination = "selectedProducts.jsp";
-
-            RequestDispatcher dispatch = request.getRequestDispatcher(destination);
-            dispatch.forward(request, response);
+        PrintWriter out = response.getWriter();
+        String letter = request.getParameter("letter");
+       if(!letter.equals("")){ 
+        for(Writer w : Writers){
+        
+        if(w.getName().startsWith(letter)){
+        
+        out.print(w.getName());
+        out.print("<p>");
         }
+        
+        }
+       }
+
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
