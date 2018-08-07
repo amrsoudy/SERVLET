@@ -30,23 +30,23 @@
 
 
                 <c:set var="i" value="0"/>
-                
 
-                    <c:forEach var="item" items="${shopingcarte}">
-                        <tr align="center">
 
-                            <td>${item.album}</td>
-                            <td>${item.artist}</td>
-                            <td>${item.country}</td>
-                            <td>${item.price}</td>
-                            <td>${item.quantity}</td>
+                <c:forEach var="item" items="${shopingcarte}">
+                    <tr align="center">
 
-                        </tr>  
+                        <td>${item.album}</td>
+                        <td>${item.artist}</td>
+                        <td>${item.country}</td>
+                        <td>${item.price}</td>
+                        <td>${item.quantity}</td>
 
-                    </c:forEach>
+                    </tr>  
 
+                </c:forEach>
+                ${session.invalidate}
                 <tr align="center">
-                    ${session.invalidate()}
+
                     <td></td>
                     <td></td>
                     <td>total</td>
@@ -61,8 +61,10 @@
 
 
 
+            
+                <p>  <a href="Sessioninvalide" > contienue a magasain </a></p>
 
-            <p>  <a href="index.jsp"> contienue a magasain </a></p>
+
         </center>
     </c:if>
 

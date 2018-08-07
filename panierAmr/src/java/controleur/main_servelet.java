@@ -23,84 +23,86 @@ import modele.CD;
  * @author AMR
  */
 public class main_servelet extends HttpServlet {
-
+    
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         String Action = request.getParameter("action");
         HttpSession session = request.getSession();
         if (session == null) {
-
+            
             response.sendRedirect("error.html");
         }
         Vector buylist = (Vector) session.getAttribute("shopingcarte");
+     
+        
         if (!Action.equals("checkout")) {
             if (Action.equals("delete")) {
-
+                
                 int del = Integer.valueOf(request.getParameter("delindex"));
                 buylist.removeElementAt(del);
-
+                
             } else if (Action.equals("add")) {
                 boolean match = false;
                 CD acd = getCD(request);
-
+                
                 if (buylist == null) {
-
+                    
                     buylist = new Vector();
                     buylist.addElement(acd);
-
+                    
                 } else {
-
+                    
                     for (int i = 0; i < buylist.size(); i++) {
-
+                        
                         CD cd = (CD) buylist.elementAt(i);
                         if (cd.getAlbum().equals(acd.getAlbum())) {
-
+                            
                             cd.setQuantity(cd.getQuantity() + acd.getQuantity());
-
+                            
                             buylist.setElementAt(cd, i);
                             match = true;
-
+                            
                         }
-
+                        
                     }
                     if (!match) {
-
+                        
                         buylist.addElement(acd);
-
+                        
                     }
-
+                    
                 }
-
+                
             }
             session.setAttribute("shopingcarte", buylist);
             String url = "/index.jsp";
             ServletContext sc = getServletContext();
             RequestDispatcher rd = sc.getRequestDispatcher(url);
             rd.forward(request, response);
-        }else if(Action.equals("checkout")){
-        
-        float total = 0 ;
-        for(int i = 0; i<buylist.size();i++){
-        CD cd = (CD)buylist.elementAt(i);
-        
-        float price = cd.getPrice();
-        int qty = cd.getQuantity();
-        
-        total += (price*qty);
-        
-        }
-        
-        total += 0.005 ;
-        String amount = String.valueOf(total);
-        int n  =  amount.indexOf(".");
-        amount = amount.substring(0,n+3);
-        
-        request.setAttribute("amount", amount);
-        String url = "/checkout.jsp";
-        RequestDispatcher rd = request.getRequestDispatcher(url);
-        rd.forward(request, response);
-        
+        } else if (Action.equals("checkout")) {
+            
+            float total = 0;
+            for (int i = 0; i < buylist.size(); i++) {
+                CD cd = (CD) buylist.elementAt(i);
+                
+                float price = cd.getPrice();
+                int qty = cd.getQuantity();
+                
+                total += (price * qty);
+                
+            }
+            
+            total += 0.005;
+            String amount = String.valueOf(total);
+            int n = amount.indexOf(".");
+            amount = amount.substring(0, n + 3);
+            
+            request.setAttribute("amount", amount);
+            String url = "/checkout.jsp";
+            RequestDispatcher rd = request.getRequestDispatcher(url);
+            rd.forward(request, response);
+            
         }
     }
 
@@ -144,26 +146,26 @@ public class main_servelet extends HttpServlet {
     }// </editor-fold>
 
     private CD getCD(HttpServletRequest request) {
-
+        
         String mycd = request.getParameter("cd");
         String qty = request.getParameter("qty");
-
+        
         StringTokenizer stk = new StringTokenizer(mycd, "|");
         String album = stk.nextToken();
         String artist = stk.nextToken();
         String country = stk.nextToken();
         String price = stk.nextToken();
         price.replace('$', ' ').trim();
-
+        
         CD acd = new CD();
         acd.setAlbum(album);
         acd.setArtist(artist);
         acd.setCountry(country);
         acd.setPrice((new Float(price)).floatValue());
         acd.setQuantity(new Integer(qty).intValue());
-
+        
         return acd;
-
+        
     }
-
+    
 }
