@@ -43,6 +43,7 @@ public class AutoComplete extends HttpServlet {
             context.getRequestDispatcher("/error.jsp").forward(request, response);
             
             }
+        boolean nameAdded = false;
         if(action.equals("complete")){
         
         if(!targetId.equals("")){
@@ -58,7 +59,12 @@ public class AutoComplete extends HttpServlet {
                 || composer.getFirstName().toLowerCase().concat(" ").concat(composer.getLastName().toLowerCase()).startsWith(targetId))
                 {
         
-        sb.append(<>)
+        sb.append("composer");
+        sb.append("id"+composer.getId()+"</id>");
+        sb.append("<firstName>"+composer.getFirstName()+"</firstName>");
+        sb.append("<lastName>"+composer.getLastName()+"</lastName>");
+        sb.append("</composer>");
+        nameAdded = true;
         
         }
         
@@ -66,6 +72,11 @@ public class AutoComplete extends HttpServlet {
         
         
         
+        }
+        if(nameAdded){
+        
+        response.setContentType("text/xml");
+        response.setHeader("case", targetId);
         }
         
         }
