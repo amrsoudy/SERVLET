@@ -1,0 +1,4 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<h2><img src="images/logo.png" width="225" height="225" alt="logo"/>
+</h2>

@@ -44,7 +44,7 @@
                     </tr>  
 
                 </c:forEach>
-                ${session.invalidate}
+              
                 <tr align="center">
 
                     <td></td>
