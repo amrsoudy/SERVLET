@@ -1,0 +1,9 @@
+http://stackoverflow.com/questions/14580120/whats-the-difference-between-including-files-with-jsp-include-directive-jsp-in
+jsp:include inclut "l'output " de la page désignée
+@ include inclut  le code de la page désignée
+jsp:include a lieu au moment de la requête  (request time)
+@include a lieu au moment de la traduction (de la jsp en servlet)
+Avec  jsp:include, la page principale et la page incluse deviennent DEUX servlets séparées
+Avec @ include, elles deviennent les parties d'une même servlet
+jsp:include gère automatiquement les changements dans le fichier inclus.
+@ include  ne gère pas le changement (grand problème de maintenance!)
