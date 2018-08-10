@@ -13,55 +13,42 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-//import org.apache.jasper.tagplugins.jstl.core.Out;
 
 /**
  *
  * @author AMR
  */
-public class langserv extends HttpServlet {
+public class serv extends HttpServlet {
 
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-//        Cookie[] cookieList = request.getCookies();
-//        String choix = "";
-//        String dest = "";
-//        if (cookieList != null) {
-//            for (int i = 0; i < cookieList.length; i++) {
-//                Cookie c = cookieList[i];
-//                if (c.getName().equals("lang")) {
-//
-//                    choix = c.getValue();
-//                    System.out.println(choix);
-//                    break;
-//                }
-//
-//            }
-//        }
-//        if (choix.equals("")) {
-//            dest = "portail.html";
-//
-//        } else if (choix.equals("Fr")) {
-//            dest = "francais.jsp";
-//
-//        } else if (choix.equals("En")) {
-//
-//            dest = "English.jsp";
-//
-//        }
-        RequestDispatcher disp = request.getRequestDispatcher("portail.html");
-        disp.forward(request, response);
+        Cookie[] cookies = request.getCookies();
+        String choix = "";
+        String dest = "";
+        if (cookies != null) {
+            System.out.println("here");
+            for (int i = 0; i < cookies.length; i++) {
 
+                Cookie c = cookies[i];
+                if (c.getName().equals("lang")) {
+                    choix = c.getValue();
+
+                }
+            }
+
+        }
+        if (choix.equals("")) {
+            dest = "portail.jsp";
+        } else if (choix.equals("FR")) {
+            dest = "Francais.jsp";
+        } else if (choix.equals("EN")) {
+
+            dest = "English.jsp";
+        }
+
+        RequestDispatcher disp = request.getRequestDispatcher(dest);
+        disp.forward(request, response);
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
