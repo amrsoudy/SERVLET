@@ -60,7 +60,7 @@
                 </table>
             </center>
     <center>
-    <a  href="index.html">magasiner un autre fois  suppremez la session</a>
+    <a  href="index.jsp">magasiner un autre fois  suppremez la session</a>
     </center>
     </body>
 </html>

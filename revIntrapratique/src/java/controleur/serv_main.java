@@ -55,7 +55,7 @@ public class serv_main extends HttpServlet {
         
         RequestDispatcher disp = request.getRequestDispatcher(url);
         disp.forward(request, response);
-        
+        session.invalidate();
    
           
       
