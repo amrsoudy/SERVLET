@@ -7,62 +7,40 @@ package controleur;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import javax.servlet.RequestDispatcher;
+import java.util.Vector;
 import javax.servlet.ServletException;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.swing.JOptionPane;
+import javax.servlet.http.HttpSession;
 
 /**
  *
  * @author AMR
  */
-public class serv extends HttpServlet {
+public class serv_main extends HttpServlet {
+
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String temp = request.getParameter("nom");
-     
-        Cookie[] cookies = request.getCookies();
-        String choix = "";
-        String dest = "";
-        String tel ="";
-        if (cookies != null) {
-            System.out.println(cookies.length);
-            for (int i = 0; i < cookies.length; i++) {
-
-                Cookie c = cookies[i];
-                System.out.println(c.getName());
-               
-                if (c.getName().equals("lang")) {
-                    choix = c.getValue();
-
-                }
-                if(c.getName().equals("tel")){
-                
-                tel = c.getValue();
-                
-                }
-            }
+        HttpSession session = request.getSession();
+        String action = request.getParameter("action");
+        if(session == null){
+        response.sendRedirect("/error.html");
         
+        }
         
-
-        }
-        System.out.println(tel);
-        if (choix.equals("")) {
-            dest = "portail.jsp";
-        } else if (choix.equals("FR")) {
-            dest = "Francais.jsp";
-        } else if (choix.equals("EN")) {
-
-            dest = "English.jsp";
-        }
-
-        RequestDispatcher disp = request.getRequestDispatcher(dest);
-        disp.forward(request, response);
+      Vector buylist = (Vector) request.getAttribute("shopingcarte");
+      
+      if(action.equals("add")){
+      
+      Cd acd = getCd(request);
+      
+      }
+      
+      
+      
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
