@@ -15,6 +15,6 @@
         <a href="English.jsp" onclick="creeCookie('EN')">English</a><br>
         <a href="Francais.jsp" onclick="creeCookie('FR')"> French</a>
         
-        
+        <script src="script.js" type="text/javascript"></script>
     </body>
 </html>

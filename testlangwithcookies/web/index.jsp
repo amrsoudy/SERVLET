@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <a href="serv"></a>
+        <jsp:forward page="serv"/>
     </body>
 </html>

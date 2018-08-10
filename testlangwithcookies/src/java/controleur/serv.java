@@ -27,15 +27,19 @@ public class serv extends HttpServlet {
         String choix = "";
         String dest = "";
         if (cookies != null) {
-            System.out.println("here");
+            System.out.println(cookies.length);
             for (int i = 0; i < cookies.length; i++) {
 
                 Cookie c = cookies[i];
+                System.out.println(c.getName());
+               
                 if (c.getName().equals("lang")) {
+                    System.out.println("ouiiiiiiiiiiiii");
                     choix = c.getValue();
 
                 }
             }
+        System.out.println(choix);
 
         }
         if (choix.equals("")) {
