@@ -31,7 +31,7 @@
 
                 </tr>
                 <tr>
-                    <td><input type="submit" value="Se Coonecter"/></td>
+                    <td><input type="submit" value="Se Conecter"/></td>
 
                 </tr>
 
