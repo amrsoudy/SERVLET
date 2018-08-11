@@ -62,6 +62,7 @@ public class servtraitment extends HttpServlet {
 
         RequestDispatcher disp = request.getRequestDispatcher(dest);
         disp.forward(request, response);
+        session.invalidate();
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
