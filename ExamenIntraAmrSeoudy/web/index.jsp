@@ -27,7 +27,7 @@
 
                 <tr>
                     <td>Mot de passe </td>
-                    <td> <input type="text" name="pass" value="" required/></td>
+                    <td> <input type="Password" name="pass" value="" required/></td>
 
                 </tr>
                 <tr>

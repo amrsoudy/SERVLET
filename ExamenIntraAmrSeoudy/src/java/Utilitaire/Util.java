@@ -14,22 +14,32 @@ import modele.listFormation;
  * @author 1795162
  */
 public class Util {
-    
+
     listFormation list = new listFormation();
     ArrayList<Formation> lists = list.getList();
 
     public ArrayList traiter(String lang) {
         ArrayList<Formation> listForm = new ArrayList();
-        for(Formation f :lists){
-            if((f.getFormation().toLowerCase()).equals(lang)){
-            listForm.add(f);
-            
+        for (Formation f : lists) {
+            if ((f.getFormation().toLowerCase()).equals(lang)) {
+                listForm.add(f);
+
             }
-        
+
         }
-        return listForm ;
+        return listForm;
     }
-    
- 
-    
+
+    public boolean verifiPasse(String pass) {
+
+        if (pass.equals("0000")) {
+
+            return true;
+
+        } else {
+            return false;
+
+        }
+
+    }
 }

@@ -5,6 +5,7 @@
  */
 package controleur;
 
+import Utilitaire.Util;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -33,15 +34,23 @@ public class servPassValidation extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         String pass = request.getParameter("pass");
         String dest = "";
-        if (pass.equals("0000")) {
-            dest = "passValid.jsp";
+        Util util = new Util();
+        try {
+            boolean x = util.verifiPasse(pass);
 
-        } else {
+            if (x == true) {
+                dest = "passValid.jsp";
 
-            dest = "passInValide.jsp";
+            } else {
+
+                dest = "passInValide.jsp";
+
+            }
+
+        } catch (Exception e) {
+            dest = "/error.jsp";
 
         }
-
         RequestDispatcher disp = request.getRequestDispatcher(dest);
         disp.forward(request, response);
     }
