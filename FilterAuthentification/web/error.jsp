@@ -13,6 +13,8 @@
     </head>
     <body>
         <h1>${errMsg}</h1>
-        <a href="index.jsp">Essayer autre fois </a>
+        <a href="${dest}">Essayer autre fois </a>
+        
+        
     </body>
 </html>

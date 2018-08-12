@@ -1,0 +1,7 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<img src="images/pic1.jpg" width="200" height="200" alt="pic1"/>
+
+<h1> Welcome <span style="color: red">${persone.userName}</span>  take care about your password  : <span style="color: red">${persone.pass} </span>
+    and it is Good Email  : <span style="color: red"> ${persone.email} </span></h1>

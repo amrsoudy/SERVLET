@@ -33,7 +33,7 @@
                             <td> <input type="email" name="email" value="" size="60" autocomplete="on"/></td>
                         </tr>
                         <tr >
-                            <td align="center" colspan="2"> <input type="submit" value=" Go to serv_auth" /></td>
+                            <td align="center" colspan="2"> <input type="submit" value=" Login" /></td>
 
                         </tr>
                     </tbody>

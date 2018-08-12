@@ -72,31 +72,32 @@ public class Utils {
     }
 
     public boolean validateBeforeAdding(String username, String pass, String Email) {
+        boolean IsNotExistAndValide = false;
 
-        boolean exist = false;
-        boolean res = false;
-
-        exist = isExistForAdding(username, Email);
+        boolean exist = isExistForAdding(username, Email);
+        boolean valid = valideEcriteur(username, pass, Email);
         //if available in the database and  username or Email
         if (exist) {
-            res = true;
+            IsNotExistAndValide = false;
 
         } else {
 
-            res = false;
-        }
+            if (!valid) {
+                IsNotExistAndValide = false;
 
-        return res;
+            } else {
+
+                IsNotExistAndValide = true;
+            }
+
+        }
+        return IsNotExistAndValide;
     }
 
-    public boolean valideEcriteur(String username, String pass, String Email) {
+    private boolean valideEcriteur(String username, String pass, String Email) {
         boolean valid = false;
-        System.out.println(username);
-        System.out.println(pass);
-        
-        // to delete any spaces in the username 
-        
 
+        // to delete any spaces in the username 
         if (!"".equals(username) && username != null && !pass.equals(null) && !pass.equals("") && !Email.equals(null) && !Email.equals("")) {
 
             valid = true;
@@ -106,6 +107,14 @@ public class Utils {
         }
 
         return valid;
+
+    }
+
+    public void addUser(String username, String pass, String Email) {
+
+        Persone p = new Persone(username, pass, Email);
+        
+        ListClient.getInstance().add(p);
 
     }
 

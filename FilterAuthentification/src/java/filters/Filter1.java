@@ -101,19 +101,18 @@ public class Filter1 implements Filter {
             FilterChain chain)
             throws IOException, ServletException {
 
-        String username = request.getParameter("username");
+        String username = request.getParameter("username").trim();
         String pass = request.getParameter("pass");
         String Email = request.getParameter("email");
-        Utils util =  new Utils();
-
+        
         boolean valid = Utils.GetInstance().validateForLoging(username, pass, Email);
-        System.out.println(valid);
         if (valid) {
 
             chain.doFilter(request, response);
         } else {
 
             request.setAttribute("errMsg", "Your Password or Username  or Email pas correct ");
+            request.setAttribute("dest","index.jsp");
             RequestDispatcher disp = request.getRequestDispatcher("error.jsp");
             disp.include(request, response);
 

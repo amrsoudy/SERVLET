@@ -5,8 +5,10 @@
  */
 package servlets;
 
+import Utilitaire.Utils;
 import java.io.IOException;
 import java.io.PrintWriter;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -30,18 +32,36 @@ public class serv_addUser extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet serv_addUser</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet serv_addUser at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
+        PrintWriter out = response.getWriter();
+        String username = request.getParameter("username").trim();
+        String pass = request.getParameter("pass");
+        String Email = request.getParameter("email");
+        String msg;
+        String destination ="" ;
+
+        String link = "";
+        try {
+            Utils.GetInstance().addUser(username, pass, Email);
+            link = "addUser.jsp";
+            msg = "User Added";
+            destination = "index.jsp";
+            request.setAttribute("destination", destination);
+            
+
+        } catch (Exception e) {
+
+            msg = "there is problem with the connection to server so wait alittileand try again please ";
+            request.setAttribute("dest", "addUser.jsp");
+            link = "error.jsp";
+          
+
         }
+        RequestDispatcher disp = request.getRequestDispatcher(link);
+        disp.include(request, response);
+        out.print("<center>");
+        out.print(msg);
+        out.print("</center>");
+
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

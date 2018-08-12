@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -32,14 +33,19 @@
                             <td> <input type="email" name="email" value="" size="60" autocomplete="on"/></td>
                         </tr>
                         <tr >
-                            <td align="center" colspan="2"> <input type="submit" value=" Go to serv_auth" /></td>
+                            <td align="center" colspan="2"> <input type="submit" value=" Add User" /></td>
 
                         </tr>
+
                     </tbody>
                 </table>
 
             </center>
 
         </form>
+        <c:if test="${!empty destination}">
+            <a href="${destination}"> Now  Login please </a>
+
+        </c:if>
     </body>
 </html>

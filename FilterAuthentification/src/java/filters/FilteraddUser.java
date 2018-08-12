@@ -105,21 +105,19 @@ public class FilteraddUser implements Filter {
         String username = request.getParameter("username").trim();
         String pass = request.getParameter("pass");
         String Email = request.getParameter("email");
-        
-        boolean valid = Utils.GetInstance().valideEcriteur(username,pass,Email);
-        if(valid ){
-        
-        chain.doFilter(request, response);
-        }else{
-        
-         RequestDispatcher disp = request.getRequestDispatcher("addUser.jsp");
-           disp.include(request, response);
-           out.print("<center>");
-           out.print(" Wrong Letters in  username or password or email missing or have problem  or not correct Formate ");
-            out.print("</center>");
-        
-        }
+        boolean IsNotExistAndValide = Utils.GetInstance().validateBeforeAdding(username, pass, Email);
+        if (IsNotExistAndValide) {
+          
+            chain.doFilter(request, response);
+        } else {
 
+            RequestDispatcher disp = request.getRequestDispatcher("addUser.jsp");
+            disp.include(request, response);
+            out.print("<center>");
+            out.print(" Wrong Letters in  username or password or email missing or have problem  or not correct Formate ");
+            out.print("</center>");
+
+        }
 
     }
 

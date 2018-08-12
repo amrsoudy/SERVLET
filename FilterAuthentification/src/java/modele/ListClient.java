@@ -13,26 +13,27 @@ import java.util.ArrayList;
  */
 public class ListClient extends ArrayList<Persone> {
 
-    private static  ListClient listClient;
-    
+    private static ListClient listClient;
 
-    public static  ListClient getInstance() {
+    public static ListClient getInstance() {
         if (listClient == null) {
 
             listClient = new ListClient();
+            Persone p = new Persone("amr", "0000", "a@a.com");
+            listClient.add(p);
             return listClient;
 
         } else {
-
+            Persone p = new Persone("amr", "0000", "a@a.com");
+            listClient.add(p);
             return listClient;
         }
 
     }
 
     public static ListClient getListClient() {
+
         return listClient;
     }
-
-
 
 }

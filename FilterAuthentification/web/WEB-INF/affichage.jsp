@@ -12,30 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body style="margin-top: 60px">
-    <center>
         
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>user Name </th>
-                    <th> Password </th>
-                    <th> Email </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>${persone.userName}</td>
-                    <td>${persone.pass}</td>
-                    <td>${persone.email}</td>
-                </tr>
-            
-            </tbody>
-        </table>
+        <%@include file="paner.jspf" %>
+        
+        
+        ggggg
 
-        
-        
-    </center>
-        
-      
-    </body>
+</body>
 </html>
