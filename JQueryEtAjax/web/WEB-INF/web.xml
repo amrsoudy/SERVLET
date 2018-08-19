@@ -4,9 +4,17 @@
         <servlet-name>MaServlet</servlet-name>
         <servlet-class>controleur.MaServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>autreServlet</servlet-name>
+        <servlet-class>controleur.autreServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>MaServlet</servlet-name>
         <url-pattern>/MaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>autreServlet</servlet-name>
+        <url-pattern>/autreServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

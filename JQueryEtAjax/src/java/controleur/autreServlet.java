@@ -5,12 +5,8 @@
  */
 package controleur;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.HashMap;
-import java.util.Map;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -20,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author 1795162
  */
-public class MaServlet extends HttpServlet {
+public class autreServlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -34,18 +30,13 @@ public class MaServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-//        PrintWriter out = response.getWriter();
-//        
-//        String resultat = "data of  ajax commeing from servlet ";
-//        out.print(resultat);
         PrintWriter out = response.getWriter();
-        Map<String, String> personMap = new HashMap<String, String>();
-        personMap.put("firstname", "jean");
-        personMap.put("lastname", "Seoudy");
 
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        String json = gson.toJson(personMap);
-        response.getWriter().write(json);
+        String name = request.getParameter("text1");
+        String lastname = request.getParameter("text2");
+        
+        String resultat = name.toUpperCase()+" "+lastname.toUpperCase();
+        out.write(resultat);
 
     }
 
