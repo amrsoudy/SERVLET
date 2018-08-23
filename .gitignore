@@ -71,5 +71,10 @@
 /internalisation/build/
 /internalisationWeb/nbproject/private/
 /internalisationWeb/build/
+<<<<<<< HEAD
 /JqueryTest/nbproject/private/
 /JqueryTest/build/
+=======
+/JQueryEtAjax/nbproject/private/
+/JQueryEtAjax/build/
+>>>>>>> f1867b1fe3337eee10cff5575be64d0544f44cad
