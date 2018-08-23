@@ -33,7 +33,7 @@ $(document).ready(function(){
        ,
       function (result){
           
-          alert(result);
+          $("h2").text(result);
           
           
       });
