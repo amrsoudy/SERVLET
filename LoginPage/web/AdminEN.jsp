@@ -19,7 +19,7 @@
         <center><h1><u>Add User</u></h1></center>
     <center>
         <div>
-            <form action="AdminSer" method="POST">
+            <form action="srv_Inscription" method="POST">
 
                 <table>
 
