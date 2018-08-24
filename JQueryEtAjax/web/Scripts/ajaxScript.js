@@ -21,7 +21,7 @@
 
 
 $(document).ready(function(){
-    
+   
    $("button").click(function(){
        
       $.post("autreServlet",
