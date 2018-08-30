@@ -4,9 +4,17 @@
         <servlet-name>GetLocalRequete</servlet-name>
         <servlet-class>Servlets.GetLocalRequete</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ControlerServlet</servlet-name>
+        <servlet-class>Servlets.ControlerServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>GetLocalRequete</servlet-name>
         <url-pattern>/GetLocalRequete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControlerServlet</servlet-name>
+        <url-pattern>/ControlerServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
