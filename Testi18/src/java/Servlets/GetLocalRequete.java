@@ -33,6 +33,7 @@ public class GetLocalRequete extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
+        
      Locale localReq = request.getLocale();
      request.setAttribute("lang", localReq.getLanguage());
         RequestDispatcher disp = request.getRequestDispatcher("affichageLocalRequette.jsp");

@@ -15,6 +15,8 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <fmt:setLocale value="${lang}" />
+        
         <fmt:bundle basename="properties">
 
             <p><fmt:message key="welcome" /> </p>
