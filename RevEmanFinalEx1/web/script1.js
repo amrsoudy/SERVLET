@@ -9,6 +9,7 @@ function InsertObject() {
     var tempSoire = document.getElementById("tempSoire").value;
     var tempNuit = document.getElementById("tempNuit").value;
     var etat = document.getElementsByName("etat");
+    document.getElementsByClassName()
     
     for(var i=0,lenght = etat.length; i < lenght ; i++){
         if(etat[i].checked){
@@ -16,6 +17,8 @@ function InsertObject() {
             break;
         }
     }
+    
+    
 
 
 
