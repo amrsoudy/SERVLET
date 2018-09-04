@@ -1,0 +1,12 @@
+[{
+		"name": "Rixo the palm",
+		"location": [25.2555, 55.1532]
+	}, {
+		"name": "Hamid",
+		"location": [99.2555, 555.1532]
+	},
+	{
+		"name": "Amr",
+		"location": [101.2555, 500.1532]
+	}
+]
