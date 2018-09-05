@@ -33,39 +33,50 @@
 //    }
 //}
 
-var req ;
-function lireJson(){
-     document.getElementById("afficher").innerHTML = "" ;
+var req;
+//////lire de ficher 
+//function lireJson() {
+//    document.getElementById("afficher").innerHTML = "";
+//    req = new XMLHttpRequest();
+//    req.onreadystatechange = callback;
+//    req.open("GET", "firstJson.txt", true);
+//    req.send();
+//
+//
+//}
+
+function lireJson() {
+    document.getElementById("afficher").innerHTML = "";
     req = new XMLHttpRequest();
     req.onreadystatechange = callback;
-    req.open("GET","firstJson.txt",true);
+    req.open("GET", "creeJson", true);
     req.send();
-    
-    
-}
-function callback(){
-    
-    if((req.readyState == 4)&&(req.status  == 200)){
-        
-        var x =  JSON.parse(req.responseText) ;
-        
-       
-       for(var i in x ){
-           
-           
-                  document.getElementById("afficher").innerHTML += x[i].name + "<br />";
-                  for(var j in x[i].location){
-                      
-                                        document.getElementById("afficher").innerHTML += x[i].location[j] + "<br />";
 
-                      
-                  }
-  
-           
-       }
-        
+
+}
+function callback() {
+
+    if ((req.readyState == 4) && (req.status == 200)) {
+
+        var x = JSON.parse(req.responseText);
+
+
+        for (var i in x) {
+
+
+            document.getElementById("afficher").innerHTML += x[i].name + "<br />";
+            for (var j in x[i].location) {
+
+                document.getElementById("afficher").innerHTML += x[i].location[j] + "<br />";
+
+
+            }
+
+
+        }
+
     }
-    
-    
+
+
 }
 
