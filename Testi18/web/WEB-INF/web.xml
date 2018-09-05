@@ -8,6 +8,10 @@
         <servlet-name>ControlerServlet</servlet-name>
         <servlet-class>Servlets.ControlerServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>srv_ControlLang</servlet-name>
+        <servlet-class>Servlets.srv_ControlLang</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>GetLocalRequete</servlet-name>
         <url-pattern>/GetLocalRequete</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>ControlerServlet</servlet-name>
         <url-pattern>/ControlerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>srv_ControlLang</servlet-name>
+        <url-pattern>/srv_ControlLang</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
