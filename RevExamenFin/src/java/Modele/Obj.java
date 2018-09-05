@@ -14,6 +14,12 @@ public class Obj {
     String name  ;
     String[] location ;
 
+    public Obj(String name, String[] location) {
+        this.name = name;
+        this.location = location;
+    }
+    
+
     public String getName() {
         return name;
     }

@@ -5,6 +5,7 @@
  */
 package servlet;
 
+import Modele.Obj;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
@@ -39,20 +40,15 @@ public class creeJson extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         
-        HashMap<String,String[]> hash = new HashMap<>();
+        ArrayList<Obj> ar = new ArrayList<>();
         
-        hash.put("name",new String[]{"Rixo the palm"});
-        hash.put("Location", new String[]{"25.2555","55.1532"});
+        ar.add(new Obj("Amr",new String[]{"656454 ","8798787"}));
+                ar.add(new Obj("Hamid",new String[]{"656454 ","8798787"}));
+        ar.add(new Obj("Mazen",new String[]{"656454 ","8798787"}));
+
         
-        hash.put("name",new String[]{"Amr"});
-        hash.put("Location", new String[]{"99.2555","105.1532"});
-        
-        hash.put("name",new String[]{"Mazen"});
-        hash.put("Location", new String[]{"2005.2555","3000.1532"});
-        
-       
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        String json = gson.toJson(hash);
+        String json = gson.toJson(ar);
         System.out.println(json);
         response.getWriter().write(json);
         
