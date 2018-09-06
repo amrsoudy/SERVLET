@@ -1,0 +1,44 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+    <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"  %>
+
+</head>
+<body></body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+        <fmt:setLocale value="${lang}" />
+        <fmt:bundle basename="Lang">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="Soumettre.jsp"><fmt:message key="submit" /></a></li>
+
+
+                <li><a style="margin-right: 40px;" href="Rechercher.jsp"><fmt:message key="search" /></a></li>
+                <li>
+                    <form name="maForm" action="srv_ControlLang">
+
+                        <select class="form-control" name="lang" onchange="submit()" >
+                            <option><fmt:message key="msg" /> </option>
+                            <option value="fr_CA" onclick="creeCookie(this.value)"> Francais</option>
+                            <option value="en_US" onclick="creeCookie(this.value)"> English</option>
+
+                        </select>
+
+                    </fmt:bundle>
+                </form>
+            </li>
+
+        </ul>
+    </div>
+
+</nav>
+<script src="js.js" type="text/javascript"></script>
+</body>
